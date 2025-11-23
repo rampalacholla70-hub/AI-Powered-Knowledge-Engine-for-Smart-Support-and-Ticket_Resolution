@@ -1,0 +1,2724 @@
++��Qchroma:documentVostro 15 3530 
+Owner's Manual
+Regulatory Model: P112F
+Regulatory Type: P112F010/P112F011
+March 2024
+Rev. A03
+Notes, cautions, and warnings
+NOTE:  A NOTE indicates important information that helps you make better use of your product.
+CAUTION:  A CAUTION indicates either potential damage to hardware or loss of data and tells you how to avoid 
+the problem.
+WARNING:  A WARNING indicates a potential for property damage, personal injury, or death.
+© 2023-2024  Dell Inc. or its subsidiaries. All rights reserved. Dell Technologies, Dell, and other trademarks are trademarks of Dell Inc. or its 
+subsidiaries. Other trademarks may be trademarks of their respective owners.
+Chapter 1: Views of Vostro 15 3530 ............................................................................................... 7
+Right ........................................................................................................................................................................................ 7
+Left.......................................................................................................................................................................................... 7
+Top.......................................................................................................................................................................................... 9
+Front ...................................................................................................................................................................................... 10
+Bottom .................................................................................................................................................................................. 12
+Service Tag .......................................................................................................................................................................... 12
+Battery charge and status light ..................................................................................................................................... 13
+Chapter 2: Set up your Vostro 15 3530 ......................................................................................... 14
+Chapter 3: Specifications of Vostro 15 3530 ................................................................................ 16
+Dimensions and weight ..................................................................................................................................................... 16
+Processor ............................................................................................................................................................................. 16
+Chipset .................................................................................................................................................................................. 17
+Operating system ............................................................................................................................................................... 17
+Memory ................................................................................................................................................................................. 18
+External ports ...................................................................................................................................................................... 18
+Internal slots ........................................................................................................................................................................ 19
+Ethernet ............................................................................................................................................................................... 19
+Wireless module .................................................................................................................................................................. 19
+Audio ..................................................................................................................................................................................... 20
+Storage ................................................................................................................................................................................. 21
+Media-card reader ............................................................................................................................................................. 21
+Keyboard .............................................................................................................................................................................. 21
+Keyboard shortcuts of Vostro 15 3530 ........................................................................................................................ 22
+Camera ................................................................................................................................................................................. 23
+Touchpad ............................................................................................................................................................................. 23
+Power adapter .................................................................................................................................................................... 24
+Battery ................................................................................................................................................................................. 25
+Display .................................................................................................................................................................................. 26
+Fingerprint reader (optional) .......................................................................................................................................... 27
+Sensor ................................................................................................................................................................................. 27
+GPU—Integrated .............................................................................................................................................................. 27
+GPU—Discrete .................................................................................................................................................................. 28
+Hardware security ............................................................................................................................................................. 28
+Operating and storage environment ............................................................................................................................. 28
+Dell support policy ............................................................................................................................................................. 28
+ComfortView ...................................................................................................................................................................... 29
+Chapter 4: Working inside your computer .................................................................................... 30
+Safety instructions ............................................................................................................................................................ 30
+Before working inside your computer ..................................................................................................................... 30
+Safety precautions ....................................................................................................................................................... 31Contents
+Contents 3
+Electrostatic discharge—ESD protection .............................................................................................................. 31
+ESD Field Service kit ................................................................................................................................................. 32
+Transporting sensitive components ........................................................................................................................ 33
+After working inside your computer ........................................................................................................................ 33
+BitLocker ....................................................................................................................................................................... 33
+Recommended tools ......................................................................................................................................................... 34
+Screw list ............................................................................................................................................................................. 34
+Major components of Vostro 15 3530 ......................................................................................................................... 35
+Chapter 5: Removing and installing Customer Replaceable Units (CRUs) .................................... 38
+Base cover .......................................................................................................................................................................... 38
+Removing the base cover .......................................................................................................................................... 38
+Installing the base cover ........................................................................................................................................... 40
+Memory module ................................................................................................................................................................. 42
+Removing the memory module ............................................................................................................................... 42
+Installing the memory module .................................................................................................................................. 43
+M.2 solid state drive ......................................................................................................................................................... 43
+Removing the M.2 2230 solid-state drive ............................................................................................................ 43
+Installing the M.2 2230 solid-state drive .............................................................................................................. 44
+Removing the M.2 2280 solid-state drive ............................................................................................................ 45
+Installing the M.2 2280 solid-state drive .............................................................................................................. 46
+Wireless card ...................................................................................................................................................................... 47
+Removing the wireless card ..................................................................................................................................... 47
+Installing the wireless card ....................................................................................................................................... 48
+Speakers .............................................................................................................................................................................. 50
+Removing the speakers ............................................................................................................................................ 50
+Installing the speakers ............................................................................................................................................... 51
+Fan........................................................................................................................................................................................ 53
+Removing the fan ....................................................................................................................................................... 53
+Installing the fan ......................................................................................................................................................... 54
+Chapter 6: Removing and installing Field Replaceable Units (FRUs) ............................................ 55
+Battery ................................................................................................................................................................................. 55
+Rechargeable Li-ion battery precautions .............................................................................................................. 55
+Removing the 3-cell battery .................................................................................................................................... 55
+Installing the 3-cell battery ...................................................................................................................................... 56
+Removing the 4-cell battery .................................................................................................................................... 57
+Installing the 4-cell battery ...................................................................................................................................... 58
+Disconnecting the battery cable ............................................................................................................................ 59
+Connecting the battery cable .................................................................................................................................. 61
+Heat sink .............................................................................................................................................................................. 62
+Removing the heat sink - integrated ..................................................................................................................... 62
+Installing the heat sink .............................................................................................................................................. 63
+Removing the heat sink - discrete ......................................................................................................................... 64
+Installing the heat sink - discrete ........................................................................................................................... 65
+Touchpad ............................................................................................................................................................................. 66
+Removing the touchpad ........................................................................................................................................... 66
+Installing the touchpad .............................................................................................................................................. 67
+I/O daughter-board cable .............................................................................................................................................. 68
+4 Contents
+Removing the I/O daughter-board cable .............................................................................................................. 68
+Installing the I/O daughter-board cable ................................................................................................................. 69
+I/O daughter-board .......................................................................................................................................................... 70
+Removing the I/O daughter-board ........................................................................................................................ 70
+Installing the I/O daughter-board ........................................................................................................................... 71
+Power button ...................................................................................................................................................................... 72
+Removing the power button .................................................................................................................................... 72
+Installing the power button ...................................................................................................................................... 73
+Power button with optional fingerprint reader ........................................................................................................... 74
+Removing the power button with optional fingerprint reader ......................................................................... 74
+Installing the power button with optional fingerprint reader ........................................................................... 75
+Power-adapter port .......................................................................................................................................................... 76
+Removing the power-adapter port ........................................................................................................................ 76
+Installing the power-adapter port ........................................................................................................................... 77
+Display assembly ................................................................................................................................................................ 78
+Removing the display assembly .............................................................................................................................. 78
+Installing the display assembly ................................................................................................................................ 80
+Display hinge caps ............................................................................................................................................................. 83
+Removing the display hinge caps ........................................................................................................................... 83
+Installing the display hinge caps ............................................................................................................................. 85
+Display bezel ....................................................................................................................................................................... 87
+Removing the display bezel ...................................................................................................................................... 87
+Installing the display bezel ....................................................................................................................................... 89
+Display hinges ..................................................................................................................................................................... 90
+Removing the display hinges ................................................................................................................................... 90
+Installing the display hinges ..................................................................................................................................... 92
+Display panel ....................................................................................................................................................................... 93
+Removing the display panel ..................................................................................................................................... 93
+Installing the display panel ....................................................................................................................................... 98
+Camera ................................................................................................................................................................................ 101
+Removing the camera ................................................................................................................................................ 101
+Installing the camera ................................................................................................................................................. 101
+Display cable ..................................................................................................................................................................... 102
+Removing the display cable .................................................................................................................................... 102
+Installing the display cable ...................................................................................................................................... 103
+Display back-cover and antenna assembly ................................................................................................................ 104
+Removing the display back-cover and antenna assembly .............................................................................. 104
+Installing the display back-cover and antenna assembly ................................................................................ 105
+System board .................................................................................................................................................................... 107
+Removing the system board .................................................................................................................................. 107
+Installing the system board .................................................................................................................................... 109
+Palm-rest and keyboard assembly ................................................................................................................................ 112
+Removing the palm-rest and keyboard assembly .............................................................................................. 112
+Installing the palm-rest and keyboard assembly ................................................................................................ 114
+Chapter 7: Software ................................................................................................................... 117
+Operating system .............................................................................................................................................................. 117
+Drivers and downloads .................................................................................................................................................... 117
+Contents 5
+Chapter 8: BIOS Setup ............................................................................................................... 118
+Entering BIOS setup program ....................................................................................................................................... 118
+Navigation keys ................................................................................................................................................................. 118
+One time boot menu ........................................................................................................................................................ 118
+System setup options ...................................................................................................................................................... 119
+Updating the BIOS ........................................................................................................................................................... 124
+Updating the BIOS in Windows .............................................................................................................................. 124
+Updating the BIOS in Linux and Ubuntu .............................................................................................................. 125
+Updating the BIOS using the USB drive in Windows ........................................................................................ 125
+Updating the BIOS from the F12 One-Time boot menu ................................................................................... 125
+System and setup password ......................................................................................................................................... 126
+Assigning a System Setup password .................................................................................................................... 126
+Deleting or changing an existing system setup password ............................................................................... 127
+Clearing BIOS (System Setup) and System passwords ......................................................................................... 127
+Chapter 9: Troubleshooting ....................................................................................................... 128
+Handling swollen rechargeable Li-ion batteries ........................................................................................................ 128
+Locate the Service Tag or Express Service Code of your Dell computer ........................................................ 128
+Dell SupportAssist Pre-boot System Performance Check diagnostics .............................................................. 129
+Running the SupportAssist Pre-Boot System Performance Check .............................................................. 129
+Built-in self-test (BIST) .................................................................................................................................................. 129
+M-BIST ......................................................................................................................................................................... 129
+LCD Power rail test (L-BIST) ................................................................................................................................. 130
+LCD Built-in Self-Test (BIST) ................................................................................................................................. 130
+System-diagnostic lights ................................................................................................................................................. 131
+Recovering the operating system ................................................................................................................................ 132
+Real-Time Clock (RTC Reset) ...................................................................................................................................... 132
+Backup media and recovery options ........................................................................................................................... 133
+Wi-Fi power cycle ............................................................................................................................................................ 133
+Drain residual flea power (perform hard reset) ........................................................................................................ 133
+Chapter 10: Getting help and contacting Dell ............................................................................. 134
+6 Contents
+Views of Vostro 15 3530
+Right
+1.SD-card slot
+Reads from and writes to the SD card. The computer supports the following card types:
+●Secure Digital (SD)
+●Secure Digital High Capacity (SDHC)
+●Secure Digital Extended Capacity (SDXC)
+2.USB 2.0 port
+Connect devices such as external storage devices and printers. Provides data transfer speeds up to 480 Mbps.
+3.Network port
+Connect an Ethernet (RJ45) cable from a router or a broadband modem for network or Internet access, with a transfer rate 
+of 10/100/1000 Mbps.
+4.Universal audio port
+Connect headphones or a headset (headphone and microphone combo).
+5.Security-cable slot (wedge-shaped)
+Connect a security cable to prevent unauthorized movement of your computer.
+Left
+Figure 1. For computers shipped with a plastic chassis
+1.Power-adapter port (primary power)
+Connect a power adapter to provide power to your computer and charge the battery.
+2.Power and battery-status light
+Indicates the power state and battery state of the computer.1
+Views of Vostro 15 3530 7
+Solid white—Power adapter is connected and the battery is charging.
+Solid amber—Battery charge is low or critical.
+Off—Battery is fully charged.
+NOTE:  On certain computer models, the power and battery-status light are also used for diagnostics. For more 
+information, see the Troubleshooting  section in your computer’s Service Manual .
+3.HDMI 1.4 port
+Connect to a TV, external display or another HDMI-in enabled device. Provides video and audio output.
+NOTE:  The maximum resolution supported by HDMI port is 1920 x 1080 at 60 Hz.
+4.USB 3.2 Gen 1 port
+Connect devices such as external storage devices and printers. Provides data transfer speeds up to 5 Gbps.
+5.USB 3.2 Gen 1 (Type-C) port
+Connect devices such as external storage devices and printers. Provides data transfer speeds up to 5 Gbps.
+Figure 2. For computers shipped with an aluminum chassis or a discrete graphics card installed
+1.Power-adapter port (primary power)
+Connect a power adapter to provide power to your computer and charge the battery.
+2.Power and battery-status light
+Indicates the power state and battery state of the computer.
+Solid white—Power adapter is connected and the battery is charging.
+Solid amber—Battery charge is low or critical.
+Off—Battery is fully charged.
+NOTE:  On certain computer models, the power and battery-status light are also used for diagnostics. For more 
+information, see the Troubleshooting  section in your computer’s Service Manual .
+3.HDMI 1.4 port
+Connect to a TV, external display or another HDMI-in enabled device. Provides video and audio output.
+NOTE:  The maximum resolution supported by HDMI port is 1920 x 1080 at 60 Hz.
+4.USB 3.2 Gen 1 port
+Connect devices such as external storage devices and printers. Provides data transfer speeds up to 5 Gbps.
+5.USB 3.2 Gen 1 (Type-C) port with Power Delivery/DisplayPort
+Connect devices such as external storage devices, printers, and external displays.
+Supports Power Delivery that enables two-way power supply between devices. Provides up to 15 W power output that 
+enables faster charging.
+NOTE:  A USB Type-C to DisplayPort adapter (sold separately) is required to connect a DisplayPort device.
+8 Views of Vostro 15 3530
+Top
+1.Privacy shutter (only for computers shipped with an aluminum chassis)
+Slide the privacy shutter to cover the camera lens and protect your privacy when the camera is not in use.
+2.Power button with optional fingerprint reader
+Press to turn on the computer if it is turned off, in sleep state, or in hibernate state.
+When the computer is turned on, press the power button to put the computer into sleep state; press and hold the power 
+button for ten seconds to force shut-down the computer.
+If the power button has a fingerprint reader, place your finger on the power button to log in.
+Figure 3. Active area of the fingerprint reader
+NOTE:  The highlighted area indicates the actual active fingerprint reader area and the image is for illustration purposes 
+only.
+NOTE:  You can customize power-button behavior in Windows. For more information, see www.dell.com/support/
+manuals .
+3.Precision touchpad
+Move your finger on the touchpad to move the mouse pointer. Tap to left-click and two fingers tap to right-click.
+4.Right-click area
+Views of Vostro 15 3530 9
+Press to right-click.
+5.Left-click area
+Press to left-click.
+Front
+CAUTION:  The maximum operating angle for the display-panel hinge is 135 degrees.
+Figure 4. For computers shipped with a plastic chassis
+1.Camera
+Enables you to video chat, capture photos, and record videos.
+2.Camera-status light
+Turns on when the camera is in use.
+3.Microphone
+Provides digital sound input for audio recording, voice calls, and so on.
+4.Display 
+Provides visual output.
+10 Views of Vostro 15 3530
+Figure 5. For computers shipped with an aluminum chassis
+1.Left microphone
+Provides digital sound input for audio recording and voice calls.
+2.Privacy shutter
+Slide the privacy shutter to cover the camera lens and protect your privacy when the camera is not in use.
+3.Camera
+Enables you to video chat, capture photos, and record videos.
+4.Camera-status light
+Turns on when the camera is in use.
+5.Right microphone
+Provides digital sound input for audio recording and voice calls.
+6.Display 
+Provides visual output.
+Views of Vostro 15 3530 11
+Bottom
+1.Right speaker
+Provides audio output.
+2.Air vents
+Air vents provide ventilation for your computer. Clogged air vents can cause overheating and can affect your computer's 
+performance and potentially cause hardware issues. Keep the air vents clear of obstructions and clean them regularly to 
+prevent build-up of dust and dirt. For more information about cleaning air vents, search for articles in Knowledge Base 
+Resource at www.dell.com/support .
+3.Service Tag label
+The Service Tag is a unique alphanumeric identifier that enables Dell service technicians to identify the hardware 
+components in your computer and access warranty information.
+4.Left speaker
+Provides audio output.
+Service Tag
+The service tag is a unique alphanumeric identifier that allows Dell service technicians to identify the hardware components in 
+your computer and access warranty information.
+12 Views of Vostro 15 3530
+Battery charge and status light
+The following table lists the battery charge and status light behavior of your Vostro 15 3530 .
+Table 1. Battery charge and status light behavior 
+Power Source LED Behavior System Power State Battery Charge Level
+AC Adapter Off S0 - S5 Fully Charged
+AC Adapter Solid White S0 - S5 < Fully Charged
+Battery Off S0 - S5 11-100%
+Battery Solid Amber (590+/-3 nm) S0 - S5 < 10%
+●S0 (ON) - System is turned on.
+●S4 (Hibernate) - The system consumes the least power compared to all other sleep states. The system is almost at an OFF 
+state, except for a trickle power. The context data is written to a hard drive.
+●S5 (OFF) - The system is in a shutdown state.
+Views of Vostro 15 3530 13
+Set up your Vostro 15 3530
+About this task
+NOTE:  The images in this document may differ from your computer depending on the configuration you ordered.
+Steps
+1.Connect the power adapter and press the power button.
+NOTE:  To conserve battery power, the battery might enter power saving mode. Connect the power adapter and press 
+the power button to turn on the computer.
+2.Finish operating system setup.
+For Ubuntu:
+Follow the on-screen instructions to complete the setup. For more information about installing and configuring Ubuntu, 
+search in the Knowledge Base Resource at www.dell.com/support .
+For Windows:
+Follow the on-screen instructions to complete the setup. When setting up, Dell recommends that you:
+●Connect to a network for Windows updates.
+NOTE:  If connecting to a secured wireless network, enter the password for the wireless network access when 
+prompted.
+●If connected to the internet, sign-in with or create a Microsoft account. If not connected to the internet, create an 
+offline account.
+●On the Support and Protection  screen, enter your contact details.
+3.Locate and use Dell apps from the Windows Start menu—Recommended.2
+14 Set up your Vostro 15 3530
+Table 2. Locate Dell apps 
+Resources Description
+Dell Product Registration
+Register your computer with Dell.
+Dell Help & Support
+Access help and support for your computer.
+My Dell
+Centralized location for key Dell applications, help articles, and other important information about 
+your computer. It also notifies you about the warranty status, recommended accessories, and 
+software updates if available.
+SupportAssist
+SupportAssist is the smart technology that keeps your computer running at its best by optimizing 
+settings, detecting issues, removing viruses and notifies when you need to make system 
+updates. SupportAssist proactively checks the health of your system's hardware and software. 
+When an issue is detected, the necessary system state information is sent to Dell to begin 
+troubleshooting. SupportAssist is preinstalled on most of the Dell devices running Windows 
+operating system. For more information, see SupportAssist for Home PCs User's Guide on 
+www.dell.com/serviceabilitytools .
+NOTE:  In SupportAssist, click the warranty expiry date to renew or upgrade your warranty.
+Dell Update
+Updates your computer with critical fixes and latest device drivers as they become available. For 
+more information on using Dell Update, search in the Knowledge Base Resource at www.dell.com/
+support .
+Dell Digital Delivery
+Download software applications, which are purchased but not preinstalled on your computer. 
+For more information on using Dell Digital Delivery, search in the Knowledge Base Resource at 
+www.dell.com/support .
+Set up your Vostro 15 3530 15
+Specifications of Vostro 15 3530
+Dimensions and weight
+The following table lists the height, width, depth, and weight of your Vostro 15 3530 .
+Table 3. Dimensions and weight 
+Description Computer shipped with a plastic chassis Computer shipped with an aluminum 
+chassis
+Height:
+Front height 16.96 mm (0.67 in.) 15.52 mm (0.61 in.)
+Rear height 19.00 mm (0.75 in.) 17.50 mm (0.69 in.)
+Width 358.50 mm (14.11 in.) 358.50 mm (14.11 in.)
+Depth 235.56 mm (9.27 in.) 234.90 mm (9.25 in.)
+Weight (minimum) 1.66 kg (3.66 lb)
+NOTE:  The weight of your computer 
+depends on the configuration ordered 
+and manufacturing variability.1.63 kg (3.60 lb)
+NOTE:  The weight of your computer 
+depends on the configuration ordered 
+and manufacturing variability.
+Processor
+The following table lists the details of the processors supported by your Vostro 15 3530 .
+Table 4. Processor 
+Description Option one Option two Option three Option four Option five
+Processor type 13th Generation Intel 
+Core i3-1305U13th Generation Intel 
+Core i5-1334U13th Generation 
+Intel Core 
+i5-1335U13th Generation 
+Intel Core 
+i7-1355UIntel Processor 
+U300
+Processor wattage 15 W 15 W 15 W 15 W 15 W
+Processor total core 
+count5 10 10 10 5
+Performance-cores 1 2 2 2 1
+Efficient-cores 4 8 8 8 4
+Processor total 
+thread counts
+NOTE:  Intel 
+Hyper-Threading 
+Technology is 
+only available 6 12 12 12 63
+16 Specifications of Vostro 15 3530
+Table 4. Processor (continued)
+Description Option one Option two Option three Option four Option five
+on Performance-
+cores.
+Processor speed 1.20 GHz to 4.50 
+GHz0.90 GHz to 4.60 
+GHz0.90 GHz to 4.60 
+GHz1.20 GHz to 5.00 
+GHz0.90 GHz to 
+4.40 GHz
+Performance-cores frequency
+Processor base 
+frequency1.60 GHz 1.30 GHz 1.30 GHz 1.70 GHz 1.20 GHz
+Maximum turbo 
+frequency4.50 GHz 4.60 GHz 4.60 GHz 5.00 GHz 4.40 GHz
+Efficient-cores frequency
+Processor base 
+frequency1.20 GHz 0.90 GHz 0.90 GHz 1.20 GHz 0.90 GHz
+Maximum turbo 
+frequency3.30 GHz 3.40 GHz 3.40 GHz 3.70 GHz 3.30 GHz
+Processor cache 10 MB 12 MB 12 MB 12 MB 8 MB
+Integrated graphics Intel UHD Graphics Intel Iris Xe Graphics Intel Iris Xe 
+GraphicsIntel Iris Xe 
+GraphicsIntel UHD 
+Graphics
+Chipset
+The following table lists the details of the chipset that is supported for your Vostro 15 3530 .
+Table 5. Chipset 
+Description Option one Option two
+Processors 13th Generation Intel Core i3/i5/i7 
+processors and Intel Processor U30013th Generation Intel Core i5/i7 
+processors
+Chipset Integrated with the processor Integrated with the processor
+DRAM bus width 64-bit 64-bit
+Flash EPROM 32 MB 32 MB
+PCIe bus Up to Gen 3 Up to Gen 4
+Operating system
+Your Vostro 15 3530  supports the following operating systems:
+●Windows 11 Pro
+●Windows 11 Pro National Academic
+●Windows 11 Home
+●Windows 11 Pro Downgrade (Windows 10 image factory installed)
+●Ubuntu 22.04 LTS, 64-bit
+Specifications of Vostro 15 3530 17
+Memory
+The following table lists the memory specifications of your Vostro 15 3530.
+Table 6. Memory specifications 
+Description Values
+Memory slots Two SODIMM slots
+Memory type DDR4
+Memory speed ●2666 MHz (for computers shipped with USB 3.2 Gen 1 
+Type-C port)
+●3200 MHz (for computers shipped with USB 3.2 Gen 
+1 Type-C port with DisplayPort Alt Mode 1.4/Power 
+Delivery)
+Maximum memory configuration 16 GB
+Minimum memory configuration 4 GB
+Memory size per slot 4 GB, 8 GB and 16 GB
+Memory configurations supported For computers shipped with USB 3.2 Gen 1 Type-C port 
+●4 GB, 1 x 4 GB, DDR4, 2666 MHz
+●8 GB, 2 x 4 GB, DDR4, 2666 MHz, dual-channel
+●8 GB, 1 x 8 GB, DDR4, 2666 MHz
+●12 GB, 1 x 4 GB + 1 x 8 GB, DDR4, 2666 MHz, dual-channel
+●16 GB, 2 x 8 GB, DDR4, 2666 MHz, dual-channel
+●16 GB, 1 x 16 GB, DDR4, 2666 MHz
+For computers shipped with USB 3.2 Gen 1 Type-C port 
+with DisplayPort Alt Mode 1.4/Power Delivery
+●4 GB, 1 x 4 GB, DDR4, 3200 MHz
+●8 GB, 2 x 4 GB, DDR4, 3200 MHz, dual-channel
+●8 GB, 1 x 8 GB, DDR4, 3200 MHz
+●12 GB, 1 x 4 GB + 1 x 8 GB, DDR4, 3200 MHz, dual-channel
+●16 GB, 2 x 8 GB, DDR4, 3200 MHz, dual-channel
+●16 GB, 1 x 16 GB, DDR4, 3200 MHz
+External ports
+The following table lists the external ports of your Vostro 15 3530.
+Table 7. External ports 
+Description Values
+Network port One Flip-Down RJ45 Ethernet port
+USB ports ●One USB 3.2 Gen 1 port
+●One USB 2.0 port
+●One USB 3.2 Gen 1 Type-C port (for computers shipped 
+with a plastic chassis)
+●One USB 3.2 Gen 1 Type-C port with DisplayPort Alt 
+Mode 1.4/Power Delivery (for computers shipped with an 
+aluminum chassis or a discrete graphics card installed)
+18 Specifications of Vostro 15 3530
+Table 7. External ports (continued)
+Description Values
+Audio port One universal audio port
+Video port ●One HDMI 1.4 port
+NOTE:  The maximum resolution supported by HDMI 
+port is 1920 x 1080 at 60 Hz.
+●One USB 3.2 Gen 1 Type-C port with DisplayPort Alt 
+Mode 1.4/Power Delivery (for computers shipped with an 
+aluminum chassis or a discrete graphics card installed)
+Media-card reader One SD-card slot
+Power-adapter port One DC-in port (4.50 mm standard plug)
+Security-cable slot One wedge-shaped lock slot
+Internal slots
+The following table lists the internal slots of your Vostro 15 3530.
+Table 8. Internal slots 
+Description Values
+M.2 ●One M.2 2230/2280 slot for solid-state drive
+●One M.2 2230 slot for WLAN, Wi-Fi/Bluetooth
+NOTE:  To learn more about the features of different 
+types of M.2 cards, search in the Knowledge Base 
+Resource at www.dell.com/support .
+Ethernet
+The following table lists the wired Ethernet Local Area Network (LAN) specifications of your Vostro 15 3530.
+Table 9. Ethernet specifications 
+Description Values
+Model number Integrated Realtek RTL8111H
+Transfer rate 10/100/1000 Mbps
+Wireless module
+The following table lists the Wireless Local Area Network (WLAN) modules that are supported on your Vostro 15 3530.
+Table 10. Wireless module specifications 
+Description Option one Option two
+Model number Realtek RTL8821CE Realtek RTL8852BE
+Transfer rate Up to 433 Mbps Up to 1201 Mbps
+Specifications of Vostro 15 3530 19
+Table 10. Wireless module specifications (continued)
+Description Option one Option two
+Frequency bands supported 2.40 GHz/5 GHz 2.40 GHz/5 GHz
+Wireless standards ●WiFi 802.11a/b/g
+●Wi-Fi 4 (WiFi 802.11n)
+●Wi-Fi 5 (WiFi 802.11ac)●WiFi 802.11a/b/g
+●Wi-Fi 4 (WiFi 802.11n)
+●Wi-Fi 5 (WiFi 802.11ac)
+●Wi-Fi 6 (WiFi 802.11ax)
+Encryption ●64-bit/128-bit WEP
+●AES-CCMP
+●TKIP●64-bit/128-bit WEP
+●AES-CCMP
+●TKIP
+Bluetooth wireless card Bluetooth 5.0 wireless card Bluetooth 5.3 wireless card
+NOTE:  Particular versions of 
+Microsoft Windows may not support 
+the full Bluetooth 5.3 wireless card 
+functionality.
+NOTE:  The version of the Bluetooth wireless card may vary depending on the 
+operating system that is installed on your computer.
+Audio
+The following table lists the audio specifications of your Vostro 15 3530 .
+Table 11. Audio specifications 
+Description Values
+Audio controller There are two audio controller options:
+●Realtek ALC3204
+●Realtek ALC3254
+Stereo conversion Supported
+Internal audio interface High definition audio interface
+External audio interface One universal audio port
+Number of speakers Two
+Internal-speaker amplifier Supported
+External volume controls Keyboard shortcut controls
+Speaker output:
+Average speaker output 2 W
+Peak speaker output 2.5 W
+Subwoofer output Not supported
+Microphone ●Single integrated microphone (for computers shipped with 
+a plastic chassis)
+●Dual-array microphones (for computers shipped with an 
+aluminum chassis)
+20 Specifications of Vostro 15 3530
+Storage
+This section lists the storage options on your Vostro 15 3530 .
+Your Vostro 15 3530 supports the following storage configurations:
+●One M.2 2230/2280 solid-state drive
+The M.2 2230/2280 solid-state drive is the primary drive of your computer.
+Table 12. Storage specifications 
+Storage type Interface type Capacity
+M.2 2230, Solid-state drive PCIe NVMe Gen4 x4 QLC Up to 1 TB
+M.2 2230, Solid-state drive PCIe NVMe Gen4 x4 Up to 1 TB
+M.2 2280, Solid-state drive PCIe NVMe Gen4 x4 Up to 2 TB
+Media-card reader
+The following table lists the media cards that are supported on your Vostro 15 3530 .
+Table 13. Media-card reader specifications 
+Description Values
+Media-card type One SD-card slot
+Media-cards supported ●Secure Digital (SD)
+●Secure Digital High Capacity (SDHC)
+●Secure Digital Extended Capacity (SDXC)
+NOTE:  The maximum capacity supported by the media-card reader varies depending on the standard of the media card 
+that is installed on your computer.
+Keyboard
+The following table lists the keyboard specifications of your Vostro 15 3530 .
+Table 14. Keyboard specifications 
+Description Values
+Keyboard type ●Standard backlit keyboard
+●Standard non-backlit keyboard
+Keyboard layout QWERTY
+Number of keys ●United States and Canada: 99 keys
+●United Kingdom: 100 keys
+●Japan: 103 keys
+Keyboard size X = 18.70 mm key pitch
+Y = 18.05 mm key pitch
+Keyboard shortcuts Some keys on your keyboard have two symbols on them. 
+These keys can be used to type alternate characters or to 
+perform secondary functions. To type the alternate character, 
+Specifications of Vostro 15 3530 21
+Table 14. Keyboard specifications (continued)
+Description Values
+press Shift and the desired key. To perform secondary 
+functions, press Fn and the desired key.
+NOTE:  You can define the primary behavior of the 
+function keys (F1–F12) by changing Function Key 
+Behavior  in BIOS setup program.
+Keyboard shortcuts of Vostro 15 3530
+NOTE:  Keyboard characters may differ depending on the keyboard language configuration. Keys used for shortcuts remain 
+the same across all language configurations.
+Some keys on your keyboard have two symbols on them. These keys can be used to type alternate characters or to perform 
+secondary functions. The symbol shown on the lower part of the key refers to the character that is typed out when the key is 
+pressed. If you press shift and the key, the symbol shown on the upper part of the key is typed out. For example, if you press 2, 
+2 is typed out; if you press Shift  + 2, @ is typed out.
+The keys F1-F12 at the top row of the keyboard are function keys for multi-media control, as indicated by the icon at the bottom 
+of the key. Press the function key to invoke the task represented by the icon. For example, pressing F1 mutes the audio (refer to 
+the table below).
+However, if the function keys F1-F12 are needed for specific software applications, multi-media functionality can be disabled 
+by pressing fn + Esc. Subsequently, multi-media control can be invoked by pressing fn and the respective function key. For 
+example, mute audio by pressing fn + f1.
+NOTE:  You can also define the primary behavior of the function keys (F1–F12) by changing Function Key Behavior  in 
+BIOS setup program.
+Table 15. List of keyboard shortcuts 
+Function key Primary behavior
+F1 Mute audio
+F2 Decrease volume
+F3 Increase volume
+F4 Play/Pause
+F5 Click keyboard backlight (optional).
+NOTE:  Non-backlight keyboards have F5 function key without the 
+backlight icon and do not support toggle keyboard backlight function.
+NOTE:  Toggle to cycle the keyboard backlight status through off, low-
+backlight, and high-backlight.
+F6 Decrease brightness
+F7 Increase brightness
+F8 Switch to external display
+F10 Print screen
+F11 Home
+F12 End
+The fn key is also used with selected keys on the keyboard to invoke other secondary functions.
+22 Specifications of Vostro 15 3530
+Table 16. Secondary behavior 
+Function key Secondary behavior
+fn + Esc Toggle fn-key lock
+fn + S Toggle scroll lock
+fn + B Pause/Break
+fn + R System request
+fn + Right ctrl Open application menu
+fn + /
+NOTE:  This option is available only in Brazilian keyboard.Open application menu
+fn + Space bar Open emoji menu
+fn + T Toggle ultra performance mode
+fn + Left arrow Home
+fn + Right arrow End
+Camera
+The following table lists the camera specifications of your Vostro 15 3530 .
+Table 17. Camera specifications 
+Description Computer shipped with plastic 
+chassisComputer shipped with 
+aluminum chassis
+Number of cameras One One
+Camera type There is one camera option:
+●HD RGB cameraThere is one camera option:
+●FHD RGB camera
+Camera location Front camera Front camera
+Camera sensor type CMOS sensor technology CMOS sensor technology
+Camera resolution:
+Still image 0.92 megapixel 2.00 megapixel
+Video 1280 x 720 (HD) at 30 fps 1920 x 1080 (FHD) at 30 fps
+Diagonal viewing angle 78.60 degrees 82.00 degrees
+Touchpad
+The following table lists the touchpad specifications of your Vostro 15 3530 . 
+Table 18. Touchpad specifications 
+Description Values
+Touchpad resolution:
+Horizontal > 300 dpi
+Vertical > 300 dpi
+Specifications of Vostro 15 3530 23
+Table 18. Touchpad specifications (continued)
+Description Values
+Touchpad dimensions:
+Horizontal 115.00 mm (4.53 in.)
+Vertical 80.00 mm (3.15 in.)
+Touchpad gestures For more information about touchpad gestures available 
+on Windows, see the Microsoft Knowledge Base article at 
+support.microsoft.com .
+Power adapter
+The following table lists the power adapter specifications of your Vostro 15 3530 .
+Table 19. Power adapter specifications 
+Description Values
+Type 65 W
+Connector dimensions:
+External diameter 4.50 mm (0.18 in.)
+Internal diameter 2.90 mm (0.11 in.)
+Power-adapter dimensions:
+Height 28.00 mm (1.10 in.)
+Width 47.00 mm (1.90 in.)
+Depth 108.00 mm (4.30 in.)
+Power-adapter weight (maximum) 0.29 kg (0.64 lb)
+Input voltage 100 VAC - 240 VAC
+Input frequency 50 Hz - 60 Hz
+Input current (maximum) 1.60 A/1.70 A
+Output current (continuous) 3.34 A
+Rated output voltage 19.50 VDC
+Temperature range:
+Operating 0°C to 40°C (32°F to 104°F)
+Storage -40°C to 70°C (-40°F to 158°F)
+CAUTION:  Operating and storage temperature ranges may differ among components, so operating or storing 
+the device outside these ranges may impact the performance of specific components.
+24 Specifications of Vostro 15 3530
+Battery
+The following table lists the battery specifications of your Vostro 15 3530 .
+Table 20. Battery specifications 
+Description Option one Option two
+Battery type 3-cell, 41 Wh, lithium-polymer, 
+ExpressCharge4-cell, 54 Wh, lithium-polymer, 
+ExpressCharge
+Battery voltage 11.25 VDC 15.00 VDC
+Battery weight (maximum) 0.19 kg (0.41 lb) 0.24 kg (0.55 lb)
+Battery dimensions:
+Height 206.40 mm (8.12 in.) 271.90 mm (10.70 in.)
+Width 82.00 mm (3.22 in.) 82.00 mm (3.22 in.)
+Depth 5.75 mm (0.22 in.) 5.75 mm (0.22 in.)
+Temperature range:
+Operating When charging battery:
+●Initiating charging: 0°C to 45°C 
+(32°F to 113°F)
+●Upper limit for charging 
+(maximum): 50°C (122°F)
+When discharging battery:
+●Normal discharging: 0°C to 60°C 
+(32°F to 140°F)
+●Over temperature protection 
+(maximum): 70°C (158°F)
+NOTE:  The battery does 
+not allow discharge past this 
+temperature.When charging battery:
+●Initiating charging: 0°C to 45°C (32°F 
+to 113°F)
+●Upper limit for charging (maximum): 
+50°C (122°F)
+When discharging battery:
+●Normal discharging: 0°C to 60°C 
+(32°F to 140°F)
+●Over temperature protection 
+(maximum): 70°C (158°F)
+NOTE:  The battery does not allow 
+discharge past this temperature.
+Storage –20°C to 60°C (-4°F to 140°F) –20°C to 60°C (-4°F to 140°F)
+Battery operating time Varies depending on operating 
+conditions and can significantly 
+reduce under certain power-intensive 
+conditions.Varies depending on operating conditions 
+and can significantly reduce under certain 
+power-intensive conditions.
+Battery charging time (approximate)
+NOTE:  Control the charging time, 
+duration, start and end time, and so 
+on, using the Dell Power Manager 
+application. For more information 
+about Dell Power Manager, search 
+in the Knowledge Base Resource at 
+www.dell.com/support .Standard Charge/Predominately 
+AC User Charge Method: 
+●0 - 15°C maximum allowable 
+charge time from 0 to 100% RSOC 
+is 4 hours
+●16 - 50°C maximum allowable 
+charge time from 0 to 100% RSOC 
+is 3 hours
+Express Charge Method: 
+●0 - 15°C maximum allowable 
+charge time from 0 to 100% RSOC 
+is 4 hours
+●16 - 45°C normal express charge
+●46 - 50°C maximum allowable 
+charge time from 0 to 80% RSOC Standard Charge/Predominately AC 
+User Charge Method: 
+●0 - 15°C maximum allowable charge 
+time from 0 to 100% RSOC is 4 hours
+●16 - 50°C maximum allowable charge 
+time from 0 to 100% RSOC is 3 hours
+Express Charge Method: 
+●0 - 15°C maximum allowable charge 
+time from 0 to 100% RSOC is 4 hours
+●16 - 45°C normal express charge
+●46 - 50°C maximum allowable charge 
+time from 0 to 80% RSOC is 1 hours 
+charge time from 0 to 100% RSOC is 2 
+hours
+Specifications of Vostro 15 3530 25
+Table 20. Battery specifications (continued)
+Description Option one Option two
+is 1 hours charge time from 0 to 
+100% RSOC is 2 hours
+Express Charge Boost Charge 
+Method (Fast Charge for Initial 
+35%): 
+●16 - 45°C target charge time from 
+0 to 35% RSOC is 20 minsExpress Charge Boost Charge Method 
+(Fast Charge for Initial 35%): 
+●16 - 45°C target charge time from 0 to 
+35% RSOC is 20 mins
+Coin-cell battery Not supported Not supported
+CAUTION:  Operating and storage temperature ranges may differ among components, so operating or storing 
+the device outside these ranges may impact the performance of specific components.
+CAUTION:  Dell Technologies recommends that you charge the battery regularly for optimal power 
+consumption. If your battery charge is depleted, connect the power adapter, turn on your computer, and then 
+restart your computer to reduce the power consumption.
+Display
+The following table lists the display specifications of your Vostro 15 3530 .
+Table 21. Display specifications 
+Description Option one Option two
+Display type 15.6-inch High Definition (HD) 15.6-inch Full High Definition (FHD)
+Touch options No No
+Display-panel technology Twisted Nematic (TN) In-Plane Switching (IPS)
+Display-panel dimensions (active area):
+Height 193.54 mm (7.62 in.) 193.59 mm (7.62 in.)
+Width 344.23 mm (13.55 in.) 344.14 mm (13.55 in.)
+Diagonal 394.91 mm (15.55 in.) 394.87 mm (15.55 in.)
+Display-panel native resolution 1366 x 768 1920 x 1080
+Luminance (typical) 220 nits 250 nits
+Megapixels 1.05 2.07
+Color gamut 45% NTSC 45% NTSC
+Pixels Per Inch (PPI) 100 141
+Contrast ratio (minimum) 400:1 600:1
+Response time (maximum) 20 ms 35 ms
+Refresh rate 60 Hz 120 Hz
+Horizontal view angle 40 +/- degrees (min.) 80 +/- degrees (min.)
+26 Specifications of Vostro 15 3530
+Table 21. Display specifications (continued)
+Description Option one Option two
+Vertical view angle 10 (Top)/30 (Bottom) degrees (min.) 80 +/- degrees (min.)
+Pixel pitch 0.252 mm x 0.252 mm 0.17925 mm x 0.17925 mm
+Power consumption (maximum) 4.20 W 5.25 W
+Anti-glare vs glossy finish Anti-glare Anti-glare
+Fingerprint reader (optional)
+The following table lists the specifications of the optional fingerprint reader of your Vostro 15 3530 .
+NOTE:  The fingerprint reader is located on the power button.
+Table 22. Fingerprint reader specifications 
+Description Values
+Fingerprint-reader sensor technology Capacitive sensing
+Fingerprint-reader sensor resolution 500 dpi
+Fingerprint-reader sensor pixel size 108 x 88 pixel
+Sensor
+The following table lists the sensor of your Vostro 15 3530 .
+Table 23. Sensor 
+Sensor support
+Adaptive Thermal Performance Accelerometer
+GPU—Integrated
+The following table lists the specifications of the integrated Graphics Processing Unit (GPU) supported by your Vostro 15 3530 .
+Table 24. GPU—Integrated 
+Controller Memory size Processor
+Intel UHD Graphics Shared system memory 13th Generation Intel Core i3 processors 
+and Intel Processor U300
+Intel Iris Xe Graphics Shared system memory (dual-channel) 13th Generation Intel Core i5/i7 
+processors
+Specifications of Vostro 15 3530 27
+GPU—Discrete
+The following table lists the specifications of the discrete Graphics Processing Unit (GPU) supported by your Vostro 15 3530 .
+Table 25. GPU—Discrete 
+Controller Memory size Memory type
+NVIDIA GeForce MX550 2 GB GDDR6
+Hardware security
+The following table lists the hardware security of your Vostro 15 3530 .
+Table 26. Hardware security  
+Hardware security
+Windows 10 Hello - Fingerprint Reader (optional)
+Trusted Platform Module TPM 2.0
+Wedge-shaped lock
+Mechanical camera shutter (only for computers shipped with an aluminum chassis)
+Operating and storage environment
+This table lists the operating and storage specifications of your Vostro 15 3530 .
+Airborne contaminant level:  G1 as defined by ISA-S71.04-1985
+Table 27. Computer environment  
+Description Operating Storage
+Temperature range 0°C to 35°C (32°F to 95°F) -40°C to 65°C (-40°F to 149°F)
+Relative humidity (maximum) 10% to 90% (non-condensing) 0% to 95% (non-condensing)
+Vibration (maximum)*0.66 GRMS 1.30 GRMS
+Shock (maximum) 110 G† 160 G†
+Altitude range 0 m to 3048 m (0 ft to 10000 ft) 0 m to 10668 m (0 ft to 35000 ft)
+CAUTION:  Operating and storage temperature ranges may differ among components, so operating or storing 
+the device outside these ranges may impact the performance of specific components.
+* Measured using a random vibration spectrum that simulates the user environment.
+† Measured using a 2 ms half-sine pulse.
+Dell support policy
+For information about Dell support policy, search in the Knowledge Base Resource at www.dell.com/support .
+28 Specifications of Vostro 15 3530
+ComfortView
+WARNING:  Prolonged exposure to blue light from the display may lead to long-term effects such as eye strain, 
+eye fatigue, or damage to the eyes.
+Blue light is a color in the light spectrum which has a short wavelength and high energy. Chronic exposure to blue light, 
+particularly from digital sources, may disrupt sleep patterns and cause long-term effects such as eye strain, eye fatigue, or 
+damage to the eyes.
+ComfortView mode can be enabled and configured using the Dell CinemaColor application.
+ComfortView mode complies with TÜV Rheinland's requirement for low blue light software solution displays.
+Low blue light: Dell ComfortView software technology reduces harmful blue light emissions to make extended screen time easy 
+on your eyes.
+To reduce the risk of eye strain, it is also recommended that you:
+●Position the display at a comfortable viewing distance between 20 and 28 inches (50 and 70 cm) from your eyes.
+●Blink frequently to moisten your eyes, wet your eyes with water, or apply suitable eye drops.
+●Look away from your display, and gaze at a distant object at 20 ft (609.60 cm) away for at least 20 seconds during each 
+break.
+●Take an extended break for 20 minutes every two hours.
+Specifications of Vostro 15 3530 29
+Working inside your computer
+Safety instructions
+Use the following safety guidelines to protect your computer from potential damage and to ensure your personal safety. Unless 
+otherwise noted, each procedure in this document assumes that you have read the safety information that shipped with your 
+computer.
+WARNING:  Before working inside your computer, read the safety information that is shipped with your 
+computer. For more safety best practices, see the Regulatory Compliance home page at www.dell.com/
+regulatory_compliance .
+WARNING:  Disconnect your computer from all power sources before opening the computer cover or panels. 
+After you finish working inside the computer, replace all covers, panels, and screws before connecting your 
+computer to an electrical outlet.
+CAUTION:  To avoid damaging the computer, ensure that the work surface is flat, dry, and clean.
+CAUTION:  To avoid damaging the components and cards, handle them by their edges, and avoid touching the 
+pins and the contacts.
+CAUTION:  You should only perform troubleshooting and repairs as authorized or directed by the Dell technical 
+assistance team. Damage due to servicing that is not authorized by Dell is not covered by your warranty. See the 
+safety instructions that is shipped with the product or at www.dell.com/regulatory_compliance .
+CAUTION:  Before touching anything inside your computer, ground yourself by touching an unpainted metal 
+surface, such as the metal at the back of the computer. While you work, periodically touch an unpainted metal 
+surface to dissipate static electricity which could harm internal components.
+CAUTION:  When you disconnect a cable, pull it by its connector or its pull tab, not the cable itself. Some cables 
+have connectors with locking tabs or thumbscrews that you must disengage before disconnecting the cable. 
+When disconnecting cables, keep them evenly aligned to avoid bending the connector pins. When connecting 
+cables, ensure that the ports and the connectors are correctly oriented and aligned.
+CAUTION:  Press and eject any installed card from the media-card reader.
+CAUTION:  Exercise caution when handling rechargeable Li-ion batteries in laptops. Swollen batteries should not 
+be used and should be replaced and disposed properly.
+NOTE:  The color of your computer and certain components may differ from what is shown in this document.
+Before working inside your computer
+Steps
+1.Save and close all open files and exit all open applications.
+2.Shut down your computer. For Windows operating system, click Start > 
+ Power  > Shut down .
+NOTE:  If you are using a different operating system, see the documentation of your operating system for shut-down 
+instructions.
+3.Disconnect your computer and all attached devices from their electrical outlets.
+4.Disconnect all attached network devices and peripherals, such as keyboard, mouse, and monitor from your computer.4
+30 Working inside your computer
+5.Remove any media card and optical disk from your computer, if applicable.
+6.Enter the service mode, if you are able to power on your computer.
+Service Mode
+Service Mode is used to cut-off power, without disconnecting battery cable from system board prior conducting repairs in 
+the computer.
+CAUTION:  If you are unable to turn on the computer to put it into Service Mode or the computer does not 
+support Service Mode then proceed to disconnect the battery cable. To disconnect the battery cable, follow 
+the steps in Removing the battery .
+NOTE:  Ensure that your computer is shut down and the AC adapter is disconnected.
+a.Hold  <B>  key on the keyboard and press the power button for 3 seconds or until the Dell logo appears on the screen.
+b.Press any key to continue.
+c.If the AC adapter is not disconnected, a message prompting you to remove the AC adapter appears on the screen. 
+Remove the AC adapter and then press any key to continue the Service Mode  procedure. The  Service Mode  procedure 
+automatically skips the following step if the Owner Tag  of the computer is not set up in advance by the user.
+d.When the ready-to-proceed message appears on the screen, press any key to proceed. The computer emits three short 
+beeps and shuts down immediately.
+e.Once the computer shuts down, it has successfully entered Service Mode.
+NOTE:  If you are unable to power on your computer or unable to enter service mode skip this process.
+Safety precautions
+The safety precautions chapter details the primary steps to be taken before performing any disassembly instructions.
+Observe the following safety precautions before you perform any installation or break-fix procedures involving disassembly or 
+reassembly:
+●Turn off the computer and all attached peripherals.
+●Disconnect the computer and all attached peripherals from AC power.
+●Disconnect all network cables, telephone, and telecommunications lines from the computer.
+●Use an ESD field service kit when working inside any notebook  to avoid electrostatic discharge (ESD) damage.
+●After removing any computer component, carefully place the removed component on an anti-static mat.
+●Wear shoes with non-conductive rubber soles to reduce the chance of getting electrocuted.
+●Unplugging, pressing, and holding the power button for 15 seconds should discharge residual power in the system board.
+Standby power
+Dell products with standby power must be unplugged before you open the case. Systems that incorporate standby power are 
+powered while turned off. The internal power enables the computer to be remotely turned on (Wake-on-LAN) and suspended 
+into a sleep mode and has other advanced power management features.
+Bonding
+Bonding is a method for connecting two or more grounding conductors to the same electrical potential. This is done by using a 
+field service electrostatic discharge (ESD) kit. When connecting a bonding wire, ensure that it is connected to bare metal and 
+never to a painted or nonmetal surface. The wrist strap should be secure and in full contact with your skin, and ensure that you 
+remove all jewelry such as watches, bracelets, or rings prior to bonding yourself and the equipment.
+Electrostatic discharge—ESD protection
+ESD is a major concern when you handle electronic components, especially sensitive components such as expansion cards, 
+processors, memory modules, and system boards. Slight charges can damage circuits in ways that may not be obvious, such 
+as intermittent problems or a shortened product life span. As the industry pushes for lower power requirements and increased 
+density, ESD protection is an increasing concern.
+Working inside your computer 31
+Due to the increased density of semiconductors used in recent Dell products, the sensitivity to static damage is now higher than 
+in previous Dell products. For this reason, some previously approved methods of handling parts are no longer applicable.
+Two recognized types of ESD damage are catastrophic and intermittent failures.
+●Catastrophic  – Catastrophic failures represent approximately 20 percent of ESD-related failures. The damage causes an 
+immediate and complete loss of device functionality. An example of catastrophic failure is a memory DIMM that has received 
+a static shock and immediately generates a "No POST/No Video" symptom with a beep code that is emitted for missing or 
+nonfunctional memory.
+●Intermittent  – Intermittent failures represent approximately 80 percent of ESD-related failures. The high rate of 
+intermittent failures means that most of the time when damage occurs, it is not immediately recognizable. The DIMM 
+receives a static shock, but the tracing is merely weakened and does not immediately produce outward symptoms that are 
+related to the damage. The weakened trace may take weeks or months to melt, and in the meantime may cause degradation 
+of memory integrity, intermittent memory errors, and so on.
+The more difficult type of damage to recognize and troubleshoot is the intermittent (also called latent or "walking wounded") 
+failure.
+Perform the following steps to prevent ESD damage:
+●Use a wired ESD wrist strap that is properly grounded. Wireless anti-static straps do not provide adequate protection. 
+Touching the chassis before handling parts does not ensure adequate ESD protection on parts with increased sensitivity to 
+ESD damage.
+●Handle all static-sensitive components in a static-safe area. If possible, use anti-static floor pads and workbench pads.
+●When unpacking a static-sensitive component from its shipping carton, do not remove the component from the anti-static 
+packing material until you are ready to install the component. Before unwrapping the anti-static packaging, ensure that you 
+discharge static electricity from your body.
+●Before transporting a static-sensitive component, place it in an anti-static container or packaging.
+ESD Field Service kit
+The unmonitored Field Service kit is the most commonly used service kit. Each Field Service kit includes three main components: 
+anti-static mat, wrist strap, and bonding wire.
+Components of an ESD field service kit
+The components of an ESD field service kit are:
+●Anti-Static Mat  – The anti-static mat is dissipative and parts can be placed on it during service procedures. When using an 
+anti-static mat, your wrist strap should be snug and the bonding wire should be connected to the mat and to any bare metal 
+on the computer being worked on. Once deployed properly, service parts can be removed from the ESD bag and placed 
+directly on the mat. ESD-sensitive items are safe in your hand, on the ESD mat, in the computer, or inside an ESD bag.
+●Wrist Strap and Bonding Wire  – The wrist strap and bonding wire can be either directly connected between your wrist 
+and bare metal on the hardware if the ESD mat is not required, or connected to the anti-static mat to protect hardware that 
+is temporarily placed on the mat. The physical connection of the wrist strap and bonding wire between your skin, the ESD 
+mat, and the hardware is known as bonding. Use only Field Service kits with a wrist strap, mat, and bonding wire. Never 
+use wireless wrist straps. Always be aware that the internal wires of a wrist strap are prone to damage from normal wear 
+and tear, and must be checked regularly with a wrist strap tester in order to avoid accidental ESD hardware damage. It is 
+recommended to test the wrist strap and bonding wire at least once per week.
+●ESD Wrist Strap Tester  – The wires inside an ESD strap are prone to damage over time. When using an unmonitored kit, 
+it is a best practice to regularly test the strap prior to each service call, and at a minimum, test once per week. A wrist strap 
+tester is the best method for doing this test. If you do not have your own wrist strap tester, check with your regional office 
+to find out if they have one. To perform the test, plug the bonding-wire of wrist-strap into the tester while it is strapped to 
+your wrist and push the button to test. A green LED is lit if the test is successful; a red LED is lit and an alarm sounds if the 
+test fails.
+●Insulator Elements – It is critical to keep ESD sensitive devices, such as plastic heat sink casings, away from internal parts 
+that are insulators and often highly charged.
+●Working Environment – Before deploying the ESD Field Service kit, assess the situation at the customer location. For 
+example, deploying the kit for a server environment is different than for a desktop or laptop environment. Servers are 
+typically installed in a rack within a data center; desktops or laptops are typically placed on office desks or cubicles. Always 
+look for a large open flat work area that is free of clutter and large enough to deploy the ESD kit with additional space to 
+accommodate the type of computer that is being repaired. The workspace should also be free of insulators that can cause an 
+ESD event. On the work area, insulators such as Styrofoam and other plastics should always be moved at least 12 inches or 
+30 centimeters away from sensitive parts before physically handling any hardware components.
+32 Working inside your computer
+●ESD Packaging – All ESD-sensitive devices must be shipped and received in static-safe packaging. Metal, static-shielded 
+bags are preferred. However, you should always return the damaged part using the same ESD bag and packaging that the 
+new part arrived in. The ESD bag should be folded over and taped shut and all the same foam packing material should be 
+used in the original box that the new part arrived in. ESD-sensitive devices should be removed from packaging only at an 
+ESD-protected work surface, and parts should never be placed on top of the ESD bag because only the inside of the bag is 
+shielded. Always place parts in your hand, on the ESD mat, in the computer, or inside an anti-static bag.
+●Transporting Sensitive Components  – When transporting ESD sensitive components such as replacement parts or parts 
+to be returned to Dell, it is critical to place these parts in anti-static bags for safe transport.
+ESD protection summary
+It is recommended to always use the traditional wired ESD grounding wrist strap and protective anti-static mat when servicing 
+Dell products. In addition, it is critical to keep sensitive parts separate from all insulator parts while performing service and use 
+anti-static bags for transporting sensitive components.
+Transporting sensitive components
+When transporting ESD sensitive components such as replacement parts or parts to be returned to Dell, it is critical to place 
+these parts in anti-static bags for safe transport.
+After working inside your computer
+About this task
+CAUTION:  Leaving stray or loose screws inside your computer may severely damage your computer.
+Steps
+1.Replace all screws and ensure that no stray screws remain inside your computer.
+2.Connect any external devices, peripherals, or cables you removed before working on your computer.
+3.Replace any media cards, discs, or any other parts that you removed before working on your computer.
+4.Connect your computer and all attached devices to their electrical outlets.
+NOTE:  To exit service mode, ensure to connect the AC adapter to the power-adapter port on your computer.
+5.Press the power button to turn on the computer. Your computer will automatically return to normal functioning mode.
+BitLocker
+CAUTION:  If BitLocker is not suspended before updating the BIOS, the next time you reboot the system it will 
+not recognize the BitLocker key. You will then be prompted to enter the recovery key to progress, and the 
+system will ask for this on each reboot. If the recovery key is not known this can result in data loss or an 
+unnecessary operating system reinstall. For more information about this subject, For information on updating 
+the BIOS on Dell systems with BitLocker enabled , search in the Knowledge Base Resource at www.dell.com/
+support .
+CAUTION:  If BitLocker is not suspended, replacing parts like system board or storage drives on a system with 
+BitLocker / Device encryption enabled will also trigger the encryption and lock the user out. The recovery 
+key is required to regain access to Windows. The recovery key is automatically saved to the user's Microsoft 
+Account (MSA) when the device is encrypted and can be retrieved from https://account.microsoft.com/
+devices/recoverykey
+For more information, refer to Windows Support article: Finding your BitLocker recovery key in Windows
+Working inside your computer 33
+Recommended tools
+The procedures in this document may require the following tools:
+●Phillips screwdriver #0
+●Plastic scribe
+Screw list
+NOTE:  When removing screws from a component, it is recommended to note the screw type, and the quantity of screws, 
+and then place them in a screw storage box. This is to ensure that the correct number of screws and correct screw type is 
+restored when the component is replaced.
+NOTE:  Some computers have magnetic surfaces. Ensure that the screws are not left attached to such surfaces when 
+replacing a component.
+NOTE:  Screw color may vary with the configuration ordered.
+Table 28. Screw list 
+Component Screw type Quantity Screw image
+Base cover ●M2x5
+●Captive screw
+NOTE:  Screws are 
+part of the base 
+cover.●6
+●2
+●
+●
+Battery M2x3 ●3-cell battery: 3
+●4-cell battery: 4
+M.2 2230/2280 solid-state 
+driveM2x2 1
+Wireless-card bracket M2x3.5 1
+Fan M2x5 2
+Heat sink - integrated Captive screw
+NOTE:  Screws are 
+part of the integrated 
+heat sink.4
+Heat sink - discrete ●Captive screw
+NOTE:  Screws 
+are part of the 
+discrete heat sink.
+●M2x3●4
+●3●
+●
+34 Working inside your computer
+Table 28. Screw list (continued)
+Component Screw type Quantity Screw image
+Touchpad bracket M2x2 3
+Touchpad M2x2 2
+I/O daughter-board M2x3.5 2
+Power button M2x2 1
+Power button with optional 
+fingerprint readerM2x2 1
+Display assembly M2.5x5 4
+Display hinges M2.5x3.8 6
+System board ●M2x2
+●M2x3.5●1
+●4
+●
+●
+RF metal wall bracket
+NOTE:  Only for computers 
+shipped with an aluminum 
+chassis and a 4-cell battery 
+installed.M2x2 2
+Major components of Vostro 15 3530
+The following image shows the major components of Vostro 15 3530 .
+Working inside your computer 35
+1.Base cover 2.Battery
+3.Speakers 4.Power button with optional fingerprint reader
+5.Touchpad 6.Touchpad bracket
+7.Power adapter port 8.M.2 2280 solid-state drive thermal plate
+36 Working inside your computer
+9.M.2 2280 solid-state drive 10.Palm-rest and keyboard assembly
+11.Display assembly 12.Memory module
+13.Wireless card 14.I/O daughter-board
+15.System board 16.Heat sink
+17.Fan 18.I/O daughter-board cable
+NOTE:  Dell provides a list of components and their part numbers for the original system configuration purchased. These 
+parts are available according to warranty coverages purchased by the customer. Contact your Dell sales representative for 
+purchase options.
+Working inside your computer 37
+Removing and installing Customer 
+Replaceable Units (CRUs)
+The replaceable components in this chapter are Customer Replaceable Units (CRUs).
+CAUTION:  Customers can replace only the Customer Replaceable Units (CRUs) following the safety precautions 
+and replacement procedures.
+NOTE:  The images in this document may differ from your computer depending on the configuration you ordered.
+Base cover
+Removing the base cover
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+NOTE:  Ensure that your computer is in Service Mode. For more information see, step 6 in Before working inside your 
+computer .
+About this task
+The following images indicate the location of the base cover and provide a visual representation of the removal procedure.5
+38 Removing and installing Customer Replaceable Units (CRUs)
+Removing and installing Customer Replaceable Units (CRUs) 39
+Steps
+1.Remove the six screws (M2x5) and loosen the two captive screws that secure the base cover to the palm-rest and 
+keyboard assembly.
+2.Using a plastic scribe, pry open the base cover starting from the recesses, which are located in the U-shaped indents at the 
+top edge of the base cover, near the hinges.
+3.Pry open the top side of the base cover and continue working on the left and right sides to open the base cover.
+4.Lift and remove the base cover off the palm-rest and keyboard assembly.
+Installing the base cover
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+The following images indicate the location of the base cover and provide a visual representation of the installation procedure.
+40 Removing and installing Customer Replaceable Units (CRUs)
+Removing and installing Customer Replaceable Units (CRUs) 41
+Steps
+1.Place the base cover on top of the palm-rest and keyboard assembly.
+2.Align the screw holes on the base cover with the screw holes on the palm-rest and keyboard assembly, and snap the base 
+cover latches into place.
+3.Tighten the two captive screws and replace the six screws (M2x5) to secure the base cover to the palm-rest and keyboard 
+assembly.
+Next steps
+1.Follow the procedure in After working inside your computer .
+Memory module
+Removing the memory module
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+About this task
+The following images indicate the location of the memory module and provide a visual representation of the removal procedure.
+Steps
+1.Using a plastic scribe, carefully pry the memory-module retention clips away from the memory module until the memory 
+module pops-up.
+2.Slide the memory module at an angle and remove it from the memory-module slot on the system board.
+3.Repeat step 1 and 2 for the second memory module, if installed.
+42 Removing and installing Customer Replaceable Units (CRUs)
+Installing the memory module
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+The following images indicate the location of the memory module and provide a visual representation of the installation 
+procedure.
+Steps
+1.Align the notch on the memory module with the tab on the memory-module slot on the system board.
+2.Slide the memory module firmly into the memory-module slot at an angle.
+3.Press down on the memory module to snap it on the system board. Ensure that the memory-module retention clips have 
+locked the memory module.
+NOTE:  If you do not hear the click, remove the memory module and reinstall it.
+4.Repeat steps 1, 2 and 3 to install the second memory module, if applicable.
+Next steps
+1.Install the base cover .
+2.Follow the procedure in After working inside your computer .
+M.2 solid state drive
+Removing the M.2 2230 solid-state drive
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+Removing and installing Customer Replaceable Units (CRUs) 43
+About this task
+NOTE:  This procedure applies only to computers shipped with a M.2 2230 solid-state drive installed.
+NOTE:  The M.2 card that is installed on your system depends on the configuration ordered. Supported card configurations 
+on the M.2 card slot are:
+●M.2 2230 solid-state drive
+●M.2 2280 solid-state drive
+The following images indicate the location of the M.2 2230 solid-state drive and provide a visual representation of the removal 
+procedure.
+Steps
+1.Remove the screw (M2x2) that secures the M.2 2230 solid-state drive thermal plate to the palm-rest and keyboard 
+assembly.
+2.Slide and remove the M.2 2230 solid-state drive thermal plate from the M.2 2230 solid-state drive.
+3.Slide and remove the M.2 2230 solid-state drive from the M.2 card slot on the system board.
+Installing the M.2 2230 solid-state drive
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+The following images indicate the location of the M.2 2230 solid-state drive and provide a visual representation of the 
+installation procedure.
+44 Removing and installing Customer Replaceable Units (CRUs)
+Steps
+1.Align the notch on the M.2 2230 solid-state drive with the tab on the M.2 card slot on the system board.
+2.Slide the M.2 2230 solid-state drive in the M.2 card slot on the system board.
+3.Place the M.2 2230 solid-state drive thermal plate on the M.2 2230 solid-state drive.
+NOTE:  When installing the M.2 2230 solid-state drive thermal plate on the system, tuck the tabs on the M.2 2230 
+solid-state drive thermal plate under the hooks on the palm-rest and keyboard assembly.
+4.Align the screw hole on the M.2 2230 solid-state drive thermal plate with the screw hole on the palm-rest and keyboard 
+assembly.
+5.Replace the screw (M2x2) to secure the M.2 2230 solid-state drive thermal plate to the palm-rest and keyboard assembly.
+Next steps
+1.Install the base cover .
+2.Follow the procedure in After working inside your computer .
+Removing the M.2 2280 solid-state drive
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+About this task
+NOTE:  This procedure applies only to computers shipped with a M.2 2280 solid-state drive installed.
+NOTE:  The M.2 card that is installed on your system depends on the configuration ordered. Supported card configurations 
+on the M.2 card slot are:
+●M.2 2230 solid-state drive
+●M.2 2280 solid-state drive
+The following images indicate the location of the M.2 2280 solid-state drive and provide a visual representation of the removal 
+procedure.
+Removing and installing Customer Replaceable Units (CRUs) 45
+Steps
+1.Remove the screw (M2x2) that secures the M.2 2280 solid-state drive thermal plate to the palm-rest and keyboard 
+assembly.
+2.Slide and remove the M.2 2280 solid-state drive thermal plate from the palm-rest and keyboard assembly.
+3.Slide and remove the M.2 2280 solid-state drive from the M.2 card slot on the system board.
+Installing the M.2 2280 solid-state drive
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+The following images indicate the location of the M.2 2280 solid-state drive and provide a visual representation of the 
+installation procedure.
+46 Removing and installing Customer Replaceable Units (CRUs)
+Steps
+1.Align the notch on the M.2 2280 solid-state drive with the tab on the M.2 card slot on the system board.
+2.Slide the M.2 2280 solid-state drive in the M.2 card slot on the system board.
+3.Place the M.2 2280 solid-state drive thermal plate on the M.2 2280 solid-state drive.
+NOTE:  When installing the M.2 2280 solid-state drive thermal plate on the computer, tuck the tabs on the M.2 2280 
+solid-state drive thermal plate under the hooks on the palm-rest and keyboard assembly.
+4.Align the screw hole on the M.2 2280 solid-state drive thermal plate with the screw hole on the palm-rest and keyboard 
+assembly.
+5.Replace the screw (M2x2) to secure the M.2 2280 solid-state drive thermal plate to the palm-rest and keyboard assembly.
+Next steps
+1.Install the base cover .
+2.Follow the procedure in After working inside your computer .
+Wireless card
+Removing the wireless card
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+About this task
+The following images indicate the location of the wireless card and provide a visual representation of the removal procedure.
+Removing and installing Customer Replaceable Units (CRUs) 47
+Steps
+1.Remove the screw (M2x3.5) that secures the wireless-card bracket to the system board.
+2.Lift the wireless-card bracket off the wireless card.
+3.Disconnect the wireless-antenna cables from the connectors on the wireless card.
+4.Slide and remove the wireless card from the wireless-card slot on the system board.
+Installing the wireless card
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+The following images indicate the location of the wireless card and provide a visual representation of the installation procedure.
+48 Removing and installing Customer Replaceable Units (CRUs)
+Steps
+1.At an angle, slide the wireless card into the wireless-card slot on the system board.
+2.Connect the wireless-antenna cables to the wireless card.
+The following table provides the antenna-cable color scheme for the wireless card supported by your computer.
+Table 29. Antenna-cable color scheme 
+Connector on the 
+wireless cardAntenna-cable color Silkscreen marking
+Main White MAIN △ (white triangle)
+Auxiliary Black AUX ▲ (black triangle)
+3.Place the wireless-card bracket on the wireless card.
+4.Align the screw hole on the wireless-card bracket with the screw hole on the system board.
+5.Replace the screw (M2x3.5) to secure the wireless-card bracket and the wireless card to the system board.
+Next steps
+1.Install the base cover .
+2.Follow the procedure in After working inside your computer .
+Removing and installing Customer Replaceable Units (CRUs) 49
+Speakers
+Removing the speakers
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+About this task
+The following image indicates the location of the speakers and provides a visual representation of the removal procedure.
+Steps
+1.Disconnect the speaker cable from the connector on the system board.
+NOTE:  To disconnect the speaker cable featuring an eight-pin connector from the system board, pry up the bottom side 
+of the cable connector’s head first and then pull it away from the connector.
+50 Removing and installing Customer Replaceable Units (CRUs)
+2.Unroute and remove the speaker cable from the routing guides on palm-rest and keyboard assembly.
+3.Lift the speakers, along with the cable, off the palm-rest and keyboard assembly.
+Installing the speakers
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+NOTE:  If the rubber grommets are pushed out when removing the speakers, push them back in before replacing the 
+speakers.
+The following image indicates the location of the speakers and provides a visual representation of the installation procedure.
+Removing and installing Customer Replaceable Units (CRUs) 51
+Steps
+1.Using the alignment posts and rubber grommets, place the speakers in the slots on the palm-rest and keyboard assembly.
+NOTE:  Ensure that the alignment posts are threaded through the rubber grommets on the speakers.
+2.Route the speaker cable along the bottom side of the palm-rest and keyboard assembly, over the wireless-antenna cables. 
+Then secure the speaker cable into the routing guides on the palm-rest and keyboard assembly.
+NOTE:  The speaker cable must be routed through the routing guides to avoid damaging the speaker cable when 
+installing the base cover.
+52 Removing and installing Customer Replaceable Units (CRUs)
+3.Connect the speaker cable to the connector on the system board.
+Next steps
+1.Install the base cover .
+2.Follow the procedure in After working inside your computer .
+Fan
+Removing the fan
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+About this task
+The following image indicates the location of the fan and provides a visual representation of the removal procedure.
+Steps
+1.Disconnect the fan cable from the connector on the system board.
+2.Remove the two screws (M2x5) that secure the fan to the palm-rest and keyboard assembly.
+3.Lift the fan off the palm-rest and keyboard assembly.
+Removing and installing Customer Replaceable Units (CRUs) 53
+Installing the fan
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+The following image indicates the location of the fan and provides a visual representation of the installation procedure.
+Steps
+1.Place the fan in the slot on the palm-rest and keyboard assembly.
+2.Align the screw holes on the fan to the screw holes on the palm-rest and keyboard assembly.
+3.Replace the two screws (M2x5) to secure the fan to the palm-rest and keyboard assembly.
+4.Connect the fan cable to the connector on the system board.
+Next steps
+1.Install the base cover .
+2.Follow the procedure in After working inside your computer .
+54 Removing and installing Customer Replaceable Units (CRUs)
+Removing and installing Field Replaceable 
+Units (FRUs)
+The replaceable components in this chapter are Field Replaceable Units (FRUs).
+CAUTION:  The information in this removing and installing FRU's section is intended for authorized service 
+technicians only.
+CAUTION:  To avoid any potential damage to the component or loss of data, ensure that an authorized service 
+technician replaces the Field Replaceable Units (FRUs).
+CAUTION:  Dell Technologies recommends that this set of repairs, if needed, to be conducted by trained 
+technical repair specialists.
+CAUTION:  As a reminder, your warranty does not cover damages that may occur during FRU repairs that are not 
+authorized by Dell Technologies.
+NOTE:  The images in this document may differ from your computer depending on the configuration you ordered.
+Battery
+Rechargeable Li-ion battery precautions
+CAUTION: 
+●Exercise caution when handling rechargeable Li-ion batteries.
+●Discharge the battery completely before removing it. Disconnect the AC power adapter from the computer 
+and operate the computer solely on battery power—the battery is fully discharged when the computer no 
+longer turns on when the power button is pressed.
+●Do not crush, drop, mutilate, or penetrate the battery with foreign objects.
+●Do not expose the battery to high temperatures, or disassemble battery packs and cells.
+●Do not apply pressure to the surface of the battery.
+●Do not bend the battery.
+●Do not use tools of any kind to pry on or against the battery.
+●Ensure any screws during the servicing of this product are not lost or misplaced, to prevent accidental 
+puncture or damage to the battery and other computer components.
+●If the battery gets stuck inside your computer as a result of swelling, do not try to release it as puncturing, 
+bending, or crushing a rechargeable Li-ion battery can be dangerous. In such an instance, contact Dell 
+technical support for assistance. See www.dell.com/contactdell .
+●Always purchase genuine batteries from www.dell.com  or authorized Dell partners and resellers.
+●Swollen batteries should not be used and should be replaced and disposed properly. For guidelines on how to 
+handle and replace swollen rechargeable Li-ion batteries, see Handling swollen rechargeable Li-ion batteries .
+Removing the 3-cell battery
+CAUTION:  The information in this section is intended for authorized service technicians only.6
+Removing and installing Field Replaceable Units (FRUs) 55
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+About this task
+The following image indicate s the location of the 3-cell battery and provide s a visual representation of the removal procedure.
+Steps
+1.Using the pull tab, disconnect the battery cable from the connector on the system board.
+2.Remove the three screws (M2x3) that secure the 3-cell battery to the palm-rest and keyboard assembly.
+3.Lift the 3-cell battery, along with the battery cable, off the palm-rest and keyboard assembly.
+NOTE:  Computers shipped with an aluminum chassis have two RF metal wall brackets installed on the left and right 
+sides of the palm-rest and keyboard assembly. The right bracket is secured by the battery with no screw, tape, or 
+adhesives otherwise securing the bracket in place. Technicians should take note of whether the bracket has fallen out of 
+the computer during subsequent removal procedures.
+Installing the 3-cell battery
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+The following image indicate s the location of the 3-cell battery and provide s a visual representation of the installation procedure.
+56 Removing and installing Field Replaceable Units (FRUs)
+Steps
+1.Place the 3-cell battery, along with the battery cable, in the slot on the palm-rest and keyboard assembly.
+2.Align the screw holes on the 3-cell battery to the screw holes on the palm-rest and keyboard assembly.
+3.Replace the three screws (M2x3) to secure the 3-cell battery to the palm-rest and keyboard assembly.
+4.Connect the battery cable to the connector on the system board.
+Next steps
+1.Install the base cover .
+2.Follow the procedure in After working inside your computer .
+Removing the 4-cell battery
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+About this task
+The following image indicates the location of the 4-cell battery and provides a visual representation of the removal procedure.
+Removing and installing Field Replaceable Units (FRUs) 57
+Steps
+1.Using the pull tab, disconnect the battery cable from the connector on the system board.
+2.Remove the four screws (M2x3) that secure the 4-cell battery to the palm-rest and keyboard assembly.
+3.Lift the 4-cell battery, along with the battery cable, off the palm-rest and keyboard assembly.
+NOTE:  Computers shipped with an aluminum chassis have two RF metal wall brackets installed on the left and right 
+sides of the palm-rest and keyboard assembly. The right bracket is secured by the battery with no screw, tape, or 
+adhesives otherwise securing the bracket in place. As a result, technicians should take note of whether the bracket has 
+fallen out of the computer during subsequent removal procedures.
+4.Carefully push and remove the battery rubber stopper out of the bottom-left screw hole of the 4-cell battery.
+NOTE:  When replacing the 4-cell battery, use a plastic scribe to push upward through the bottom-left screw hole to 
+remove the battery rubber stopper and transfer it to the new replacement 4-cell battery.
+Installing the 4-cell battery
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+The following image indicates the location of the 4-cell battery and provides a visual representation of the installation procedure.
+58 Removing and installing Field Replaceable Units (FRUs)
+Steps
+1.Carefully push and insert the battery rubber stopper into the bottom-left screw hole of the 4-cell battery.
+NOTE:  When replacing the 4-cell battery, use a plastic scribe to push downward into the bottom-left screw hole to 
+insert the battery rubber stopper into the slot on the new replacement 4-cell battery.
+2.Place the 4-cell battery, along with the battery cable, in the slot on the palm-rest and keyboard assembly.
+3.Align the screw holes on the 4-cell battery to the screw holes on the palm-rest and keyboard assembly.
+4.Replace the four screws (M2x3) to secure the 4-cell battery to the palm-rest and keyboard assembly.
+5.Connect the battery cable to the connector on the system board.
+Next steps
+1.Install the base cover .
+2.Follow the procedure in After working inside your computer .
+Disconnecting the battery cable
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+3.Remove the 3-cell battery  or the 4-cell battery , whichever applicable.
+About this task
+The following image indicates the location of the battery cable and provides a visual representation of the removal procedure.
+Removing and installing Field Replaceable Units (FRUs) 59
+Steps
+1.Unroute the battery cable from the routing guides on the battery.
+2.Open the latch and disconnect the battery cable from the connector on the battery.
+NOTE:  To disconnect the battery cable, first push the latch downward to release the connector, and then pull the 
+connector upward to disconnect it from the battery.
+60 Removing and installing Field Replaceable Units (FRUs)
+CAUTION:  DO NOT pull the battery cable to disconnect it from the battery. This may damage the battery or 
+the battery cable.
+Connecting the battery cable
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+The following image indicates the location of the battery cable and provides a visual representation of the installation procedure.
+Removing and installing Field Replaceable Units (FRUs) 61
+Steps
+1.Connect the battery cable to the connector on the battery and close the latch.
+2.Route the battery cable through the routing guides on the battery.
+Next steps
+1.Install the 3-cell battery  or the 4-cell battery , whichever applicable.
+2.Install the base cover .
+3.Follow the procedure in After working inside your computer .
+Heat sink
+Removing the heat sink - integrated
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+About this task
+NOTE:  The integrated heat sink may become hot during normal operation. Allow sufficient time for the integrated heat sink 
+to cool before you touch it.
+NOTE:  For maximum cooling of the processor, do not touch the heat transfer areas on the integrated heat sink. The oils in 
+your skin can reduce the heat transfer capability of the thermal grease.
+The following image indicates the location of the integrated heat sink and provides a visual representation of the removal 
+procedure.
+62 Removing and installing Field Replaceable Units (FRUs)
+Steps
+1.Loosen the four captive screws that secure the heat sink to the system board.
+NOTE:  Loosen the four captive screws in the reverse sequential order mentioned on the heat sink [4 > 3 > 2 > 1].
+2.Lift the heat sink off the system board.
+Installing the heat sink
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+NOTE:  If either the system board or the integrated heat sink is replaced, use the thermal grease provided in the kit to 
+ensure that thermal conductivity is achieved.
+The following image indicates the location of the integrated heat sink and provides a visual representation of the installation 
+procedure.
+Removing and installing Field Replaceable Units (FRUs) 63
+Steps
+1.Place the heat sink in the slot on the system board.
+2.Align the screw holes on the heat sink to the screw holes on the system board.
+3.Tighten the four captive screws to secure the heat sink to the system board.
+NOTE:  Tighten the four captive screws in the sequential order mentioned on the heat sink [1 > 2 > 3 > 4].
+Next steps
+1.Install the base cover .
+2.Follow the procedure in After working inside your computer .
+Removing the heat sink - discrete
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+About this task
+NOTE:  The discrete heat sink may become hot during normal operation. Allow sufficient time for the discrete heat sink to 
+cool before you touch it.
+NOTE:  For maximum cooling of the processor, do not touch the heat transfer areas on the discrete heat sink. The oils in 
+your skin can reduce the heat transfer capability of the thermal grease.
+The following image indicates the location of the discrete heat sink and provides a visual representation of the removal 
+procedure.
+64 Removing and installing Field Replaceable Units (FRUs)
+Steps
+1.Remove the three screws (M2x3) and loosen the four captive screws that secure the discrete heat sink to the system 
+board.
+NOTE:  Loosen the four captive screws in the reverse sequential order mentioned on the discrete heat sink [4 > 3 > 2 > 
+1].
+2.Lift and remove the discrete heat sink from the system board.
+Installing the heat sink - discrete
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+NOTE:  If either the system board or the discrete heat sink is replaced, use the thermal grease provided in the kit to ensure 
+that thermal conductivity is achieved.
+The following image indicates the location of the discrete heat sink and provides a visual representation of the installation 
+procedure.
+Removing and installing Field Replaceable Units (FRUs) 65
+Steps
+1.Place the discrete heat sink on the system board.
+2.Align the screw holes on the discrete heat sink to the screw holes on the system board.
+3.Replace the three screws (M2x3) and tighten the four captive screws to secure the discrete heat sink to the system board.
+NOTE:  Tighten the four captive screws in the sequential order mentioned on the discrete heat sink [1 > 2 > 3 > 4].
+Next steps
+1.Install the base cover .
+2.Follow the procedure in After working inside your computer .
+Touchpad
+Removing the touchpad
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+3.Remove the 3-cell battery  or the 4-cell battery , whichever applicable.
+About this task
+The following images indicate the location of the touchpad and provide a visual representation of the removal procedure.
+66 Removing and installing Field Replaceable Units (FRUs)
+Steps
+1.Open the latch and disconnect the touchpad FFC from the connector on the system board.
+2.Remove the three screws (M2x2) that secure the touchpad bracket to the palm-rest and keyboard assembly.
+3.Lift the touchpad bracket off the touchpad assembly.
+4.Remove the two screws (M2x2) that secure the touchpad to the palm-rest and keyboard assembly.
+5.Lift the touchpad, along with the touchpad FFC, off the palm-rest and keyboard assembly.
+6.Open the latch and disconnect the touchpad FFC from the connector on the touchpad.
+Installing the touchpad
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+NOTE:  Ensure that the touchpad is aligned with the guides available on the palm-rest and keyboard assembly, and the gap 
+on either sides of the touchpad is equal.
+The following images indicate the location of the touchpad and provide a visual representation of the installation procedure.
+Removing and installing Field Replaceable Units (FRUs) 67
+Steps
+1.Connect the touchpad FFC to the connector on the touchpad and close the latch.
+2.Align and place the touchpad, along with the touchpad FFC, in the slot on the palm-rest and keyboard assembly.
+3.Replace the two screws (M2x2) to secure the touchpad to the palm-rest and keyboard assembly.
+4.Place the touchpad bracket in the slot on the palm-rest and keyboard assembly.
+5.Align the screw holes on the touchpad bracket to the screw holes on the palm-rest and keyboard assembly.
+6.Replace the three screws (M2x2) to secure the touchpad bracket to the palm-rest and keyboard assembly.
+7.Connect the touchpad FFC to the connector on the system board and close the latch.
+Next steps
+1.Install the 3-cell battery  or the 4-cell battery , whichever applicable.
+2.Install the base cover .
+3.Follow the procedure in After working inside your computer .
+I/O daughter-board cable
+Removing the I/O daughter-board cable
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+3.Remove the fan.
+About this task
+The following image indicates the location of the I/O daughter-board cable and provides a visual representation of the removal 
+procedure.
+68 Removing and installing Field Replaceable Units (FRUs)
+Steps
+1.Open the latch and disconnect the I/O daughter-board cable from the connector on the system board.
+2.Open the latch and disconnect the I/O daughter-board cable from the connector on the I/O daughter-board.
+3.Remove the I/O daughter-board cable from the palm-rest and keyboard assembly.
+NOTE:  For computers shipped with a plastic chassis, carefully slide the I/O daughter-board cable underneath the 
+wireless-antenna cables to remove the I/O daughter-board cable.
+Installing the I/O daughter-board cable
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+The following image indicates the location of the I/O daughter-board cable and provides a visual representation of the 
+installation procedure.
+Removing and installing Field Replaceable Units (FRUs) 69
+Steps
+1.Place the I/O daughter-board cable on the palm-rest and keyboard assembly.
+NOTE:  For computers shipped with a plastic chassis, carefully slide the I/O daughter-board cable underneath the 
+wireless-antenna cables to place the I/O daughter-board cable on the palm-rest and keyboard assembly.
+2.Connect the I/O daughter-board cable to the connector on the I/O daughter-board and close the latch.
+3.Connect the I/O daughter-board cable to the connector on the system board and close the latch.
+Next steps
+1.Install the fan.
+2.Install the base cover .
+3.Follow the procedure in After working inside your computer .
+I/O daughter-board
+Removing the I/O daughter-board
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+About this task
+The following images indicate the location of the I/O daughter-board and provide a visual representation of the removal 
+procedure.
+70 Removing and installing Field Replaceable Units (FRUs)
+Steps
+1.Remove the two screws (M2.5x5) that secure the left display hinge to the palm-rest and keyboard assembly.
+2.Using a plastic scribe, lift the left display hinge away from the palm-rest and keyboard assembly to access the I/O daughter-
+board.
+3.Open the latch and disconnect the I/O daughter-board cable from the connector on the I/O daughter-board.
+4.Open the latch and disconnect the fingerprint reader cable from the I/O daughter-board.
+NOTE:  This step applies only to computers shipped with a fingerprint reader installed.
+5.Remove the two screws (M2x3.5)  that secure the I/O daughter-board to the palm-rest and keyboard assembly.
+6.Carefully slide and remove the I/O daughter-board at angle, from the palm-rest and keyboard assembly, to clear the ports 
+from the port openings.
+Installing the I/O daughter-board
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+The following images indicate the location of the I/O daughter-board and provide a visual representation of the installation 
+procedure.
+Removing and installing Field Replaceable Units (FRUs) 71
+Steps
+1.Align the ports on the I/O daughter-board to the port openings on the palm-rest and keyboard assembly.
+2.Carefully slide and place the I/O daughter-board at an angle, on the palm-rest and keyboard assembly.
+3.Align the screw holes on the I/O daughter-board to the screw holes on the palm-rest and keyboard assembly.
+4.Replace the two screws (M2x3.5)  to secure the I/O daughter-board to the palm-rest and keyboard assembly.
+5.Connect the fingerprint reader cable to the connector on the I/O daughter-board and close the latch.
+NOTE:  This step applies only to computers shipped with a fingerprint reader installed.
+6.Connect the I/O daughter-board cable to the connector on the I/O daughter-board and close the latch.
+7.Close the left display hinge downwards to align the screw holes on the left display hinge to the screw holes on the I/O 
+daughter-board and the palm-rest and keyboard assembly.
+8.Replace the two screws (M2.5x5) to secure the left display hinge to the I/O daughter-baord and the palm-rest and keyboard 
+assembly.
+Next steps
+1.Install the base cover .
+2.Follow the procedure in After working inside your computer .
+Power button
+Removing the power button
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+3.Remove the I/O daughter-board .
+72 Removing and installing Field Replaceable Units (FRUs)
+About this task
+The following image indicate s the location of the power button and provide s a visual representation of the removal procedure.
+Steps
+1.Remove the screw (M2x2) that secures the power button to the palm-rest and keyboard assembly.
+2.Lift the power button off the palm-rest and keyboard assembly.
+Installing the power button
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+The following image indicate s the location of the power button and provide s a visual representation of the installation 
+procedure.
+Removing and installing Field Replaceable Units (FRUs) 73
+Steps
+1.Place the power button in the slot on the palm-rest and keyboard assembly.
+2.Align the screw hole on the power button to the screw hole on the palm-rest and keyboard assembly.
+3.Replace the screw (M2x2) to secure the power button to the palm-rest and keyboard assembly.
+Next steps
+1.Install the I/O daughter-board .
+2.Install the base cover .
+3.Follow the procedure in After working inside your computer .
+Power button with optional fingerprint reader
+Removing the power button with optional fingerprint reader
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+3.Remove the I/O daughter-board .
+About this task
+NOTE:  This procedure applies only to computers shipped with a power button with optional fingerprint reader installed.
+The following image indicates the location of the power button with optional fingerprint reader and provides a visual 
+representation of the removal procedure.
+74 Removing and installing Field Replaceable Units (FRUs)
+Steps
+1.Peel back the tape that secures the optional fingerprint-reader flexible printed circuit to the palm-rest and keyboard 
+assembly.
+2.Remove the screw (M2x2) that secures the power button with optional fingerprint reader to the palm-rest and keyboard 
+assembly.
+3.Lift the power button with optional fingerprint reader off the slot on the palm-rest and keyboard assembly.
+Installing the power button with optional fingerprint reader
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+NOTE:  This procedure applies only to computers shipped with a power button with optional fingerprint reader installed.
+The following image indicates the location of the power button with optional fingerprint reader and provides a visual 
+representation of the installation procedure.
+Removing and installing Field Replaceable Units (FRUs) 75
+Steps
+1.Place the power button with optional fingerprint reader in the slot on the palm-rest and keyboard assembly.
+2.Align the screw hole on the power button with optional fingerprint reader to the screw hole on the palm-rest and keyboard 
+assembly.
+3.Replace the screw (M2x2) to secure the power button with optional fingerprint reader to the palm-rest and keyboard 
+assembly.
+4.Adhere the tape to secure the optional fingerprint-reader flexible printed circuit to the palm-rest and keyboard assembly.
+Next steps
+1.Install the I/O daughter-board .
+2.Install the base cover .
+3.Follow the procedure in After working inside your computer .
+Power-adapter port
+Removing the power-adapter port
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+About this task
+The following images indicate the location of the power-adapter port and provide a visual representation of the removal 
+procedure.
+76 Removing and installing Field Replaceable Units (FRUs)
+Steps
+1.Remove the two screws (M2.5x5) that secure the right display hinge to the system board and the palm-rest and keyboard 
+assembly.
+2.Using a plastic scribe, lift the right display hinge away from the palm-rest and keyboard assembly to access the power-
+adapter port.
+3.Disconnect the power-adapter port cable from the connector on the system board.
+4.Remove the power-adapter port from the slot on the palm-rest and keyboard assembly.
+NOTE:  The power-adapter port is secured in place by the right display hinge. There is no screw, tape, or adhesives 
+securing the power-adapter port to the palm rest. As a result, technicians should take note of whether the power-
+adapter port has fallen out of the computer during subsequent removal procedures.
+Installing the power-adapter port
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+The following images indicate the location of the power-adapter port and provide a visual representation of the installation 
+procedure.
+Removing and installing Field Replaceable Units (FRUs) 77
+Steps
+1.Align and place the power-adapter port in the slot on the palm-rest and keyboard assembly.
+NOTE:  The power-adapter port is secured in place by the right display hinge. There is no screw, tape, or adhesives 
+securing the power-adapter port to the palm rest. As a result, technicians should take note of whether the power-
+adapter port has fallen out of the computer during subsequent removal procedures.
+2.Connect the power-adapter port cable to the connector on the system board.
+3.Close the right display hinge downwards to align the screw holes on the right display hinge to the screw holes on the system 
+board and the palm-rest and keyboard assembly.
+4.Replace the two screws (M2.5x5) to secure the right display hinge to the system board and the palm-rest and keyboard 
+assembly.
+Next steps
+1.Install the base cover .
+2.Follow the procedure in After working inside your computer .
+Display assembly
+Removing the display assembly
+CAUTION:  The information in this section is intended for authorized service technicians only.
+CAUTION:  The maximum operating angle for the display-panel hinge is 135 degrees.
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+3.Remove the wireless card .
+NOTE:  This procedure applies only to systems shipped with a plastic chassis.
+78 Removing and installing Field Replaceable Units (FRUs)
+About this task
+The following images indicate the location of the display assembly and provide a visual representation of the removal procedure.
+Removing and installing Field Replaceable Units (FRUs) 79
+Steps
+1.Disconnect the speaker cable from the connector on the system board.
+NOTE:  This step applies only to computers shipped with a plastic chassis.
+2.Disconnect the display cable from the connector on the system board.
+3.Unroute the wireless-antenna cable from the routing guides on the palm-rest and keyboard assembly.
+NOTE:  This step applies only to computers shipped with a plastic chassis.
+4.Remove the four screws (M2.5x5) that secure the display hinges to the palm-rest and keyboard assembly.
+5.Using a plastic scribe, lift the left and right hinges away from the palm-rest and keyboard assembly.
+6.Lift the palm-rest and keyboard assembly at an angle to free it from the hinges and remove it from the display assembly.
+NOTE:  For computers shipped with an aluminum chassis, the display assembly is a Hinge-Up Design (HUD) assembly 
+and cannot be further disassembled once it is removed from the palm-rest and keyboard assembly. If any components in 
+the display assembly are malfunctioning and are required to be replaced, replace the entire display assembly.
+NOTE:  The power-adapter port is secured in place by the right display hinge. There is no screw, tape, or adhesives 
+securing the power-adapter port to the palm-rest. As a result, technicians should take note of whether the power-
+adapter port has fallen out of the computer during subsequent removal procedures.
+Installing the display assembly
+CAUTION:  The information in this section is intended for authorized service technicians only.
+CAUTION:  The maximum operating angle for the display-panel hinge is 135 degrees.
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+80 Removing and installing Field Replaceable Units (FRUs)
+About this task
+NOTE:  Ensure that the display hinges are opened to the maximum before replacing the display assembly on the palm-rest 
+and keyboard assembly.
+The following images indicate the location of the display assembly and provide a visual representation of the installation 
+procedure.
+Steps
+1.Place the display assembly on a clean and flat surface.
+Removing and installing Field Replaceable Units (FRUs) 81
+2.Slide the palm-rest and keyboard assembly at an angle and place the palm-rest and keyboard assembly on the display 
+assembly.
+NOTE:  The power-adapter port is secured in place by the right display hinge. There is no screw, tape, or adhesives 
+securing the power-adapter port to the palm-rest. As a result, technicians should take note of whether the power-
+adapter port has fallen out of the computer during subsequent removal procedures.
+3.Gently press down on the display hinges to align the screw holes on the display hinges with the screw holes on the palm-rest 
+and keyboard assembly.
+4.Replace the four screws (M2.5x5) to secure the display hinges to the palm-rest and keyboard assembly.
+5.Route the wireless-antenna cables through the routing guides on the palm-rest and keyboard assembly.
+NOTE:  This step applies only to computers shipped with a plastic chassis.
+6.Route the speaker cable through the routing guides on the palm-rest and keyboard assembly.
+NOTE:  This step applies only to computers shipped with a plastic chassis.
+7.Connect the speaker cable to the connector on the system board.
+NOTE:  This step applies only to computers shipped with a plastic chassis.
+8.Connect the display cable to the connector on the system board.
+Next steps
+1.Install the wireless card .
+NOTE:  This procedure applies only to systems shipped with a plastic chassis.
+2.Install the base cover .
+3.Follow the procedure in After working inside your computer .
+82 Removing and installing Field Replaceable Units (FRUs)
+Display hinge caps
+Removing the display hinge caps
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+3.Remove the wireless card .
+4.Remove the display assembly .
+About this task
+NOTE:  This procedure applies only to computers with a plastic chassis.
+The following images indicate the location of the display hinge caps and provide a visual representation of the removal 
+procedure.
+Removing and installing Field Replaceable Units (FRUs) 83
+Steps
+1.Place the display assembly on a clean, flat surface and gently open the display hinges to at least 90 degrees.
+84 Removing and installing Field Replaceable Units (FRUs)
+2.Using a plastic scribe, pry open the left display-hinge cap from its right side and remove it from the left display hinge.
+3.Using a plastic scribe, pry open the right display-hinge cap from its left side and remove it from the right display hinge.
+Installing the display hinge caps
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+NOTE:  This procedure applies only to computers with a plastic chassis.
+The following images indicate the location of the display hinge caps and provide a visual representation of the installation 
+procedure.
+Removing and installing Field Replaceable Units (FRUs) 85
+Steps
+1.Align the rib, inside the right display-hinge cap, to the left-outer side of the right display hinge.
+2.Push the right display-hinge cap down on the right display hinge, until it clicks in place.
+3.Align the rib, inside the left display-hinge cap, to the right-outer side of the left display hinge.
+4.Push the left display-hinge cap down on the right display hinge, until it clicks in place.
+Next steps
+1.Install the display assembly .
+2.Install the wireless card .
+3.Install the base cover .
+4.Follow the procedure in After working inside your computer .
+86 Removing and installing Field Replaceable Units (FRUs)
+Display bezel
+Removing the display bezel
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+3.Remove the wireless card .
+4.Remove the display assembly .
+5.Remove the display hinge caps .
+About this task
+NOTE:  This procedure applies only to computers with a plastic chassis.
+The following image indicates the location of the display bezel and provides a visual representation of the removal procedure.
+Steps
+1.Using a plastic scribe, pry open the display bezel from the outer edge of openings at the bottom side of the display assembly, 
+near the display hinges.
+Removing and installing Field Replaceable Units (FRUs) 87
+2.Carefully pry open the outer edge of the bottom side of the display bezel.
+3.Using the plastic scribe, pry open the outside edge of the left, right, and top sides of the display bezel.
+4.Lift and remove the display bezel from the display assembly.
+CAUTION:  DO NOT use a plastic scribe or any other objects to pry up the display bezel in the manner shown 
+below, as the pressure applied on the display panel by the scribe may damage the display panel.
+88 Removing and installing Field Replaceable Units (FRUs)
+Installing the display bezel
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+NOTE:  This procedure applies only to computers with a plastic chassis.
+The following image indicates the location of the display bezel and provides a visual representation of the installation procedure.
+Removing and installing Field Replaceable Units (FRUs) 89
+Steps
+1.Place the display assembly on a clean and flat surface.
+2.Align and place the display bezel on the display assembly.
+3.Starting from the top corner, press on the display bezel and work around the entire bezel until it clicks onto the display 
+assembly.
+Next steps
+1.Install the display hinge caps .
+2.Install the display assembly .
+3.Install the wireless card .
+4.Install the base cover .
+5.Follow the procedure in After working inside your computer .
+Display hinges
+Removing the display hinges
+CAUTION:  The information in this section is intended for authorized service technicians only.
+90 Removing and installing Field Replaceable Units (FRUs)
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+3.Remove the wireless card .
+4.Remove the display assembly .
+5.Remove the display hinge caps .
+6.Remove the display bezel .
+About this task
+NOTE:  This procedure applies only to computers with a plastic chassis.
+The following images indicate the location of the display hinges and provide a visual representation of the removal procedure.
+Steps
+1.Remove the three screws (M2.5x3.8) that secure the left display hinge to the display panel and back cover.
+2.Lift and remove the left display hinge from the display assembly.
+3.Remove the three screws (M2.5x3.8) that secure the right display hinge to the display panel and back cover.
+4.Lift and remove the right display hinge from the display assembly.
+Removing and installing Field Replaceable Units (FRUs) 91
+Installing the display hinges
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+NOTE:  This procedure applies only to computers with a plastic chassis.
+The following images indicate the location of the display hinges and provide a visual representation of the installation procedure.
+Steps
+1.Align and place the left display hinge on the display assembly.
+2.Replace the three screws (M2.5x3.8) to secure the left display hinge to the display panel and back cover.
+3.Align and place the right display hinge on the display assembly.
+4.Replace the three screws (M2.5x3.8) to secure the right display hinge to the display panel and back cover.
+92 Removing and installing Field Replaceable Units (FRUs)
+Next steps
+1.Install the display bezel .
+2.Install the display hinge caps .
+3.Install the display assembly .
+4.Install the wireless card .
+5.Install the base cover .
+6.Follow the procedure in After working inside your computer .
+Display panel
+Removing the display panel
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+3.Remove the wireless card .
+4.Remove the display assembly .
+5.Remove the display hinge caps .
+6.Remove the display bezel .
+7.Remove the display hinges .
+About this task
+NOTE:  This procedure applies only to computers with a plastic chassis.
+The following images indicate the location of the display panel and provide a visual representation of the removal procedure.
+Removing and installing Field Replaceable Units (FRUs) 93
+94 Removing and installing Field Replaceable Units (FRUs)
+Steps
+1.Using a plastic scribe, pry the display panel from the bottom-right corner.
+2.Using your hands, gently pry the display panel from the tabs along the right side of the display back-cover and antenna 
+assembly.
+Removing and installing Field Replaceable Units (FRUs) 95
+3.Repeat step 1 and 2 for the left side of the display panel assembly.
+96 Removing and installing Field Replaceable Units (FRUs)
+4.Lift the bottom side of the display panel and slide it downward to release the display brackets from the slots at the top side 
+of the display back-cover.
+5.Gently flip the display panel assembly forward, peel back the tape that secures the display cable to the connector on the rear 
+of the display panel.
+NOTE:  Ensure that the panel has a clean and smooth surface to rest on, to prevent damage.
+6.Disconnect the display cable from the connector on the display panel and remove the display panel.
+NOTE:  The display panel is assembled with the display brackets as a single service part. DO NOT pull the two pieces of 
+elastic tape and separate the brackets from the panel.
+Removing and installing Field Replaceable Units (FRUs) 97
+Installing the display panel
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+NOTE:  This procedure applies only to computers with a plastic chassis.
+The following images indicate the location of the display panel and provide a visual representation of the installation procedure.
+98 Removing and installing Field Replaceable Units (FRUs)
+Removing and installing Field Replaceable Units (FRUs) 99
+Steps
+1.Place the display panel and display assembly on a clean and flat surface.
+2.Connect the display cable to the connector on the display panel and close the latch.
+3.Adhere the tape to secure the display cable to the connector on the display panel.
+4.Turn the display panel over and place the display panel on the display back-cover.
+5.Lift the bottom side of the display panel and slide the top side into the slots at the top of the display back-cover.
+6.Gently push down on the edges of the display panel until it clicks into the tabs on the display back-cover.
+Next steps
+1.Install the display hinges .
+2.Install the display bezel .
+3.Install the display hinge caps .
+4.Install the display assembly .
+5.Install the wireless card .
+6.Install the base cover .
+7.Follow the procedure in After working inside your computer .
+100 Removing and installing Field Replaceable Units (FRUs)
+Camera
+Removing the camera
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+3.Remove the wireless card .
+4.Remove the display assembly .
+5.Remove the display hinge caps .
+6.Remove the display bezel .
+7.Remove the display hinges .
+8.Remove the display panel .
+About this task
+NOTE:  This procedure applies only to computers with a plastic chassis.
+The following images indicate the location of the camera module and provide a visual representation of the removal procedure.
+Steps
+1.Disconnect the display cable from the connector on the camera module.
+2.Using a plastic scribe, gently pry the camera off the display back-cover and antenna assembly.
+3.Remove the camera module from the display assembly.
+Installing the camera
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+Removing and installing Field Replaceable Units (FRUs) 101
+About this task
+NOTE:  This procedure applies only to computers with a plastic chassis.
+The following images indicate the location of the camera module and provide a visual representation of the installation 
+procedure.
+Steps
+1.Using the alignment post, adhere the camera module on the display back-cover and antenna assembly.
+2.Connect the display cable to the connector on the camera module.
+Next steps
+1.Install the display panel .
+2.Install the display hinges .
+3.Install the display bezel .
+4.Install the display hinge caps .
+5.Install the display assembly .
+6.Install the wireless card .
+7.Install the base cover .
+8.Follow the procedure in After working inside your computer .
+Display cable
+Removing the display cable
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+3.Remove the wireless card .
+4.Remove the display assembly .
+5.Remove the display hinge caps .
+6.Remove the display bezel .
+7.Remove the display hinges .
+102 Removing and installing Field Replaceable Units (FRUs)
+8.Remove the display panel .
+About this task
+NOTE:  This procedure applies only to computers with a plastic chassis.
+The following image indicates the location of the display cable and provides a visual representation of the removal procedure.
+Steps
+1.Disconnect the display eDP cable from the connector on the camera module.
+2.Carefully peel back and remove the display eDP cable from the display back-cover and antenna assembly.
+Installing the display cable
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+NOTE:  This procedure applies only to computers with a plastic chassis.
+The following image indicates the location of the display cable and provides a visual representation of the installation procedure.
+Removing and installing Field Replaceable Units (FRUs) 103
+Steps
+1.Adhere the display eDP cable to the display back-cover and antenna assembly.
+2.Connect the display eDP cable to the connector on the camera module.
+Next steps
+1.Install the display panel .
+2.Install the display hinges .
+3.Install the display bezel .
+4.Install the display hinge caps .
+5.Install the display assembly .
+6.Install the wireless card .
+7.Install the base cover .
+8.Follow the procedure in After working inside your computer .
+Display back-cover and antenna assembly
+Removing the display back-cover and antenna assembly
+CAUTION:  The information in this section is intended for authorized service technicians only.
+104 Removing and installing Field Replaceable Units (FRUs)
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+3.Remove the wireless card .
+4.Remove the display assembly .
+5.Remove the display hinge caps .
+6.Remove the display bezel .
+7.Remove the display hinges .
+8.Remove the display panel .
+9.Remove the camera .
+10.Remove the display cable .
+About this task
+NOTE:  This procedure applies only to computers with a plastic chassis.
+NOTE:  The display back-cover and antenna assembly cannot be further disassembled once all the pre-removal parts 
+procedures are completed. If the wireless antennas are malfunctioning and are required to be replaced, replace the entire 
+display back-cover and antenna assembly.
+The image below shows the display back-cover and antenna assembly after the pre-removal parts procedures have been 
+performed for any display back-cover and antenna assembly replacement.
+Steps
+After performing the pre-requisites, you are left with the display back-cover and antenna assembly.
+Installing the display back-cover and antenna assembly
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Removing and installing Field Replaceable Units (FRUs) 105
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+NOTE:  This procedure applies only to computers with a plastic chassis.
+The following image indicates the location of the display back-cover and antenna assembly and provides a visual representation 
+of the installation procedure.
+Steps
+Place the display back-cover and antenna assembly on a flat surface and perform the post-requisites to install the display 
+back-cover and antenna assembly.
+Next steps
+1.Install the display cable .
+2.Install the camera .
+3.Install the display panel .
+4.Install the display hinges .
+5.Install the display bezel .
+6.Install the display hinge caps .
+7.Install the display assembly .
+8.Install the wireless card .
+9.Install the base cover .
+10.Follow the procedure in After working inside your computer .
+106 Removing and installing Field Replaceable Units (FRUs)
+System board
+Removing the system board
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+3.Remove the memory module .
+4.Remove the M.2 2230 solid-state drive  or the M.2 2280 solid-state drive , whichever applicable.
+5.Remove the wireless card .
+6.Remove the fan.
+7.Remove the heat sink - integrated  or the heat sink - discrete , whichever applicable.
+NOTE:  When removing the system board to replace/access other parts, the system board can be removed with the 
+heat sink attached to it in order to simplify the procedure and preserve the thermal bond between the system board and 
+heat sink.
+About this task
+The following image indicates the connectors on your system board.
+1.Fan cable connector
+2.I/O daughter-board FFC connector
+3.eDP connector
+4.Power-adapter port connector
+5.Memory module connector
+6.Keyboard FFC connector
+7.Keyboard-backlight FPC connector
+8.Battery connector
+9.Touchpad FFC connector
+10.Wireless card connector
+11.Speaker cable connector
+Removing and installing Field Replaceable Units (FRUs) 107
+12.M.2 solid-state drive connector
+The following images indicate the location of the system board and provide a visual representation of the removal procedure.
+Steps
+1.Remove the two screws (M2.5x5) that secure the right display hinge to the system board and the palm-rest and keyboard 
+assembly.
+2.Using a plastic scribe, lift the right display hinge away from the palm-rest and keyboard assembly.
+3.Disconnect the following cables from the system board:
+a.I/O daughter-board FFC
+b.eDP cable
+c.Power-adapter port cable
+d.Keyboard FFC
+e.Keyboard-backlight FPC
+NOTE:  This step applies only to computers shipped with a keyboard backlight installed.
+108 Removing and installing Field Replaceable Units (FRUs)
+f.Battery cable
+g.Touchpad FFC
+h.Speaker cable
+4.Remove the screw (M2x2) and the four screws (M2x3.5) that secure the system board to the palm-rest and keyboard 
+assembly.
+NOTE:  DO NOT remove the USB Type-C bracket from the system board, for individual replacement. The system board 
+and the USB Type-C bracket are replaced as an assembly part.
+5.Carefully lift and remove the system board from the palm-rest and keyboard assembly.
+Installing the system board
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+NOTE:  When installing the system board to replace/access other parts, the system board can be installed with the heat 
+sink attached to it in order to simplify the procedure and preserve the thermal bond between the system board and heat 
+sink.
+The following image indicates the connectors on your system board.
+Removing and installing Field Replaceable Units (FRUs) 109
+1.Fan cable connector
+2.I/O daughter-board FFC connector
+3.eDP connector
+4.Power-adapter port connector
+5.Memory module connector
+6.Keyboard FFC connector
+7.Keyboard-backlight FPC connector
+8.Battery connector
+9.Touchpad FFC connector
+10.Wireless card connector
+11.Speaker cable connector
+12.M.2 solid-state drive connector
+The following images indicate the location of the system board and provide a visual representation of the installation procedure.
+110 Removing and installing Field Replaceable Units (FRUs)
+Steps
+1.Align the ports on the system board to the port openings on the palm-rest and keyboard assembly.
+2.At an angle, carefully slide and place the system board on the palm-rest and keyboard assembly.
+3.Align the screw holes on the system board with the screw holes on the palm-rest and keyboard assembly.
+4.Replace the screw (M2x2) and the four screws (M2x3.5) to secure the system board to the palm-rest and keyboard 
+assembly.
+5.Connect the following cables to the system board:
+a.I/O daughter-board FFC
+b.eDP cable
+c.Power-adapter port cable
+d.Keyboard FFC
+e.Keyboard-backlight FPC
+NOTE:  This step applies only to computers shipped with a keyboard backlight installed.
+Removing and installing Field Replaceable Units (FRUs) 111
+f.Battery cable
+g.Touchpad FFC
+h.Speaker cable
+6.Close the right display hinge downwards to align the screw holes on the right display hinge to the screw holes on the system 
+board and the palm-rest and keyboard assembly.
+7.Replace the two screws (M2.5x5) to secure the right display hinge to the system board and the palm-rest and keyboard 
+assembly.
+Next steps
+1.Install the heat sink - integrated  or the heat sink - discrete , whichever applicable.
+2.Install the fan.
+3.Install the wireless card .
+4.Install the M.2 2230 solid-state drive  or the M.2 2280 solid-state drive , whichever applicable.
+5.Install the memory module .
+6.Install the base cover .
+7.Follow the procedure in After working inside your computer .
+Palm-rest and keyboard assembly
+Removing the palm-rest and keyboard assembly
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+1.Follow the procedure in Before working inside your computer .
+2.Remove the base cover .
+3.Remove the memory module .
+4.Remove the M.2 2230 solid-state drive  or the M.2 2280 solid-state drive , whichever applicable.
+5.Remove the wireless card .
+6.Remove the speakers .
+7.Remove the fan.
+8.Remove the heat sink - integrated  or the heat sink - discrete , whichever applicable.
+9.Remove the 3-cell battery  or the 4-cell battery , whichever applicable.
+10.Remove the touchpad .
+11.Remove the I/O daughter-board cable .
+12.Remove the I/O daughter-board .
+13.Remove the power button  or the power button with optional fingerprint reader , whichever applicable.
+14.Remove the power-adapter port .
+15.Remove the display assembly .
+16.Remove the system board .
+NOTE:  When removing the system board to replace/access other parts, the system board can be removed with the 
+heat sink attached to it in order to simplify the procedure and preserve the thermal bond between the system board and 
+heat sink.
+About this task
+NOTE:  The palm-rest and keyboard assembly cannot be further disassembled once all the pre-removal parts procedures 
+are completed. If the keyboard is malfunctioning and is required to be replaced, replace the entire palm-rest and keyboard 
+assembly.
+The image below shows the palm-rest and keyboard assembly after the pre-removal parts procedures have been performed for 
+any palm-rest and keyboard assembly replacement.
+112 Removing and installing Field Replaceable Units (FRUs)
+Steps
+1.For computers shipped with an aluminum chassis and a 4-cell battery installed, remove the two screws (M2x2) that secure 
+the left RF metal wall bracket to the palm-rest and keyboard assembly.
+2.For computers shipped with an aluminum chassis, remove the right and left RF metal wall bracket from the palm-rest and 
+keyboard assembly.
+NOTE:  The left and right RF metal wall brackets MUST be transferred to the replacement palm-rest and keyboard 
+assembly.
+Removing and installing Field Replaceable Units (FRUs) 113
+3.After performing the pre-requisites, you are left with the palm-rest and keyboard assembly.
+Installing the palm-rest and keyboard assembly
+CAUTION:  The information in this section is intended for authorized service technicians only.
+Prerequisites
+If you are replacing a component, remove the existing component before performing the installation procedure.
+About this task
+NOTE:  The system board can be installed with the heat sink attached to it in order to simplify the procedure and preserve 
+the thermal bond between the system board and heat sink.
+The following image indicates the location of the palm-rest and keyboard assembly and provides a visual representation of the 
+installation procedure.
+114 Removing and installing Field Replaceable Units (FRUs)
+Steps
+1.Place the palm-rest and keyboard assembly on a flat surface and perform the post-requisites to install the palm-rest and 
+keyboard assembly.
+2.For computers shipped with an aluminum chassis, place the right and left RF metal wall bracket in the slot on the palm-rest 
+and keyboard assembly.
+NOTE:  The left and right RF metal wall brackets MUST be transferred to the replacement palm-rest and keyboard 
+assembly.
+3.For computers shipped with an aluminum chassis and a 4-cell battery installed, replace the two screws (M2x2) to secure the 
+left RF metal wall bracket to the palm-rest and keyboard assembly.
+Removing and installing Field Replaceable Units (FRUs) 115
+Next steps
+1.Install the system board .
+2.Install the display assembly .
+3.Install the power-adapter port .
+4.Install the power button  or the power button with optional fingerprint reader , whichever applicable.
+5.Install the I/O daughter-board .
+6.Install the I/O daughter-board cable .
+7.Install the touchpad .
+8.Install the 3-cell battery  or the 4-cell battery , whichever applicable.
+9.Install the heat sink - integrated  or the heat sink - discrete , whichever applicable.
+10.Install the fan.
+11.Install the speakers .
+12.Install the wireless card .
+13.Install the M.2 2230 solid-state drive  or the M.2 2280 solid-state drive , whichever applicable.
+14.Install the memory module .
+15.Install the base cover .
+16.Follow the procedure in After working inside your computer .
+116 Removing and installing Field Replaceable Units (FRUs)
+Software
+This chapter details the supported operating systems along with instructions on how to install the drivers.
+Operating system
+Your Vostro 15 3530  supports the following operating systems:
+●Windows 11 Pro
+●Windows 11 Pro National Academic
+●Windows 11 Home
+●Windows 11 Pro Downgrade (Windows 10 image factory installed)
+●Ubuntu 22.04 LTS, 64-bit
+Drivers and downloads
+When troubleshooting, downloading, or installing drivers, it is recommended that you read the Dell Knowledge Base article 
+Drivers and Downloads FAQs 000123347 .7
+Software 117
+BIOS Setup
+CAUTION:  Unless you are an expert computer user, do not change the settings in the BIOS Setup. Certain 
+changes can make your computer work incorrectly.
+NOTE:  Depending on the computer and its installed devices, the items that are listed in this section may or may not be 
+displayed.
+NOTE:  Before you change the settings in BIOS Setup, it is recommended that you note down the original settings for 
+future reference.
+Use BIOS Setup for the following purposes:
+●Get information about the hardware installed in your computer, such as the amount of RAM and the size of the storage 
+device.
+●Change the system configuration information.
+●Set or change a user-selectable option, such as the user password, type of hard drive installed, and enabling or disabling 
+base devices.
+Entering BIOS setup program
+About this task
+Turn on (or restart) your computer and press F2 immediately.
+Navigation keys
+NOTE:  For most of the System Setup options, changes that you make are recorded but do not take effect until you restart 
+the computer.
+Table 30. Navigation keys 
+Keys Navigation
+Up arrow Moves to the previous field.
+Down arrow Moves to the next field.
+Enter Selects a value in the selected field (if applicable) or follows 
+the link in the field.
+Spacebar Expands or collapses a drop-down list, if applicable.
+Tab Moves to the next focus area.
+NOTE:  For the standard graphical user interface only.
+Esc Moves to the previous page until you view the main screen. 
+Pressing Esc in the main screen displays a message that 
+prompts you to save any unsaved changes and restart the 
+computer.
+One time boot menu
+To enter one time boot menu , turn on your computer, and then press F12 immediately.8
+118 BIOS Setup
+NOTE:  It is recommended to shutdown the computer if it is on.
+The one-time boot menu displays the devices that you can boot from including the diagnostic option. The boot menu options 
+are:
+●Windows Boot Manager
+●UEFI HTTPs Boot
+●UEFI M.2 solid-state drive Boot
+●ONBOARD NIC (IPV4)
+●ONBOARD NIC (IPV6)
+The boot sequence screen also displays the option to access the System Setup screen.
+System setup options
+NOTE:  Depending on your computer and its installed devices, the items that are listed in this section may or may not 
+appear.
+Table 31. System setup options — System information menu 
+Overview
+Vostro 15 3530
+BIOS Version Displays the BIOS version number of the computer.
+Service Tag Displays the Service Tag of the computer.
+Asset Tag Displays the Asset Tag of the computer.
+Manufacture Date Displays the manufacture date of the computer.
+Ownership Date Displays the ownership date of the computer.
+Express Service Code Displays the express service code of the computer.
+Ownership Tag Displays the Ownership Tag of the computer.
+Signed Firmware Update Displays whether the Signed Firmware Update is enabled on your computer.
+By default, the option is enabled.
+Battery
+Primary Displays that battery is primary.
+Battery Level Displays the battery level of the computer.
+Battery State Displays the battery state of the computer.
+Health Displays the battery health of the computer.
+AC Adapter Displays whether an AC adapter is connected or not. If connected, displays the 
+AC adapter type.
+Battery Life Type Displays the battery life type of the computer.
+Processor
+Processor Type Displays the processor type.
+Maximum Clock Speed Displays the maximum processor clock speed.
+Minimum Clock Speed Displays the minimum processor clock speed.
+Current Clock Speed Displays the current processor clock speed.
+Core Count Displays the number of cores on the processor.
+Processor ID Displays the processor identification code.
+Processor L2 Cache Displays the processor L2 Cache size.
+Processor L3 Cache Displays the processor L3 Cache size.
+BIOS Setup 119
+Table 31. System setup options — System information menu (continued)
+Overview
+Microcode Version Displays the microcode version.
+Intel Hyper-Threading Capable Displays whether the processor is Hyper-Threading (HT) capable or not.
+64-Bit Technology Displays whether 64-bit technology is used or not.
+Memory
+Memory Installed Displays the total computer memory installed.
+Memory Available Displays the total computer memory available.
+Memory Speed Displays the memory speed.
+Memory Channel Mode Displays single or dual channel mode.
+Memory Technology Displays the technology that is used for the memory.
+DIMM A Size Displays the total DIMM A computer memory available, with memory type.
+DIMM B Size Displays the total DIMM B computer memory available, with memory type.
+Devices
+Panel Type Displays the panel type of the computer.
+Video Controller Displays the video controller information of the computer.
+Video Memory Displays the video memory information of the computer.
+Wi-Fi Device Displays the wireless device information of the computer.
+Native Resolution Displays the native resolution of the computer.
+Video BIOS Version Displays the video BIOS version of the computer.
+Audio Controller Displays the audio controller information of the computer.
+Bluetooth Device Displays the Bluetooth device information of the computer.
+LOM MAC Address Displays the MAC address of the computer.
+Table 32. System setup options — Boot Configuration menu 
+Boot Configuration
+Boot Sequence
+Boot mode Displays the boot mode of the computer.
+Boot Sequence Specifies the order that the BIOS searches the list of devices to find an 
+operating system to boot.
+By default, the Windows Boot Manager  option is selected.
+By default, the UEFI HTTPs Boot (MAC:04BF1B414407)  option is selected.
+By default, the UEFI RST CL4-3D512-Q11 NVMe SSSTC 512GB 
+VFN39DH002780885  option is selected.
+By default, the ONBOARD NIC (IPV4)  option is selected.
+By default, the ONBOARD NIC (IPV6)  option is selected.
+Secure Boot
+Enable Secure Boot Displays the boot mode of the computer.
+By default, the option is disabled.
+Enable Microsoft UEFI CA When disabled, the UEFI CA is removed from the BIOS UEFI Secure Boot 
+database.
+120 BIOS Setup
+Table 32. System setup options — Boot Configuration menu (continued)
+Boot Configuration
+NOTE:  When disabled, the Microsoft UEFI CA could render your computer 
+unable to boot, system graphics may not function, some devices may not 
+function properly, and the computer could become unrecoverable.
+By default, the option is enabled.
+Secure Boot Mode Enables or disables the Secure Boot operation mode.
+By default, the Deployed Mode  option is selected.
+Expert Key Management
+Enable Custom Mode Enables or disables the keys in the PK, KEK, db, and dbx security key databases 
+to be modified.
+By default, the option is disabled.
+Custom Mode Key Management Allows the user to select the custom values for expert key management.
+By default, PK option is selected.
+Table 33. System setup options — Integrated Devices menu 
+Integrated Devices
+Date/Time
+Date Sets the computer date in MM/DD/YYYY format. Changes to the date take 
+effect immediately.
+Time Sets the computer time in HH:MM:SS 24-hour format. You can switch 
+between 12-hour and 24-hour clock. Changes to the time take effect 
+immediately.
+Camera
+Enable Camera Enables or disables the camera.
+By default, the option is enabled.
+Audio Enables or disables the integrated audio controller.
+By default, all the options are enabled.
+Enable Microphone Enables or disables the microphone.
+By default, the option is enabled.
+Enable Internal Speaker Enables or disables the internal speaker.
+By default, the option is enabled.
+USB Configuration
+Enable USB Boot Support Enables or disables the USB boot support.
+When enabled, bootable USB mass storage devices (such as HDD, flash drive, 
+CD/DVD) can boot through the boot sequence or boot menu. USB ports are 
+also functional in an OS environment.
+When disabled, bootable USB mass storage devices are prevented from 
+booting through the boot sequence or boot menu but the USB ports are 
+functional in an OS environment.
+By default, the option is enabled.
+BIOS Setup 121
+Table 34. System setup options — Storage menu 
+Storage
+SATA/NVMe Operation Allows the user to set the operating mode of the integrated storage device 
+controller.
+By default, RAID On  option is selected.
+Storage interface
+Port Enablement Enables or disables the onboard drives.
+By default, the SATA-0  option is enabled.
+By default, the M.2 PCIe SSD  option is enabled.
+Drive Information
+SATA-0
+Type Displays the SATA-0 type information of the computer.
+Device Displays the SATA-0 device information of the computer.
+M.2 PCIe SSD
+Type Displays the M.2 PCIe SSD type information of the computer.
+Device Displays the M.2 PCIe SSD device information of the computer.
+Table 35. System setup options — Display menu 
+Display
+Display Brightness
+Brightness on battery power Allows the user to set the screen brightness level when the computer is 
+running on battery power.
+By default, the Brightness on battery power  level is set to 70.
+Brightness on AC power Allows the user to set the screen brightness level when the computer is 
+running on AC power.
+By default, the Brightness on AC power  level is set to 100.
+Table 36. System setup options — Security menu 
+Security
+TPM 2.0 Security 
+Clear When enabled, the Clear option clears information stored in the TPM after 
+exiting the system's BIOS. This option returns to disabled state when the 
+system restarts.
+By default, the option is disabled.
+PPI Bypass for Clear Commands Enables or disables the TPM Physical Presence Interface (PPI).
+When enabled, this setting allows the operating system to skip BIOS PPI user 
+prompts when issuing the Clear command. Changes to this setting take effect 
+immediately.
+By default, the option is disabled.
+Data Wipe on Next Boot 
+Start Data Wipe Enables or disables the Data Wipe feature.
+When enabled, the BIOS will queue up a data wipe cycle for storage device(s), 
+connected to the computer, on next reboot.
+WARNING:  Secure Data Wipe operation deletes information in a way 
+that it cannot be reconstructed.
+122 BIOS Setup
+Table 36. System setup options — Security menu (continued)
+Security
+By default, the option is disabled.
+Table 37. System setup options — Passwords menu 
+Passwords
+Admin Password Enables the user to set, change, or delete the administrator (admin) password. 
+The administrator password enables several security features.
+System Password Enables the user to set, change, or delete the system password. The system 
+password prevents the computer from booting to an operating system without 
+entering the correct password.
+M.2 PCIe SSD-0 Enables the user to set, change, or delete the M.2 PCIe SSD-0 password.
+Table 38. System setup options — Update, Recovery menu 
+Update, Recovery
+SupportAssist OS Recovery Enables or disables the boot flow for SupportAssist OS Recovery tool, in the 
+event of certain system error.
+By default, the option is enabled.
+BIOSConnect Enables or disables cloud Service OS recovery if the main OS fails to boot 
+within the number of failures equal or greater than the value specified by 
+Dell Auto OS Recovery Threshold, and local Service does not boot, or is not 
+installed.
+By default, the option is enabled.
+Dell Auto OS Recovery Threshold Controls the automatic boot flow for SupportAssist System Resolution Console 
+and for Dell operating system Recovery tool.
+By default, the Dell Auto OS Recovery Threshold  value is set to 2.
+Table 39. System setup options — System Management menu 
+System Management
+Service Tag Displays the Service Tag of the computer.
+Asset Tag Creates a system Asset Tag that can be used by an IT administrator to 
+uniquely identify a particular system. Once set in BIOS, the Asset Tag cannot 
+be changed.
+Diagnostics 
+OS Agent Requests Enables or disables the Dell OS Agent to schedule onboard diagnostics on a 
+subsequent boot. Enabling this option helps assist in prevention and resolution 
+of hardware related issues.
+By default, the option is enabled.
+Table 40. System setup options — Keyboard menu 
+Keyboard
+Keyboard illumination Allows the user to select the keyboard illumination brightness.
+By default, the Dim option is selected. This option enables the keyboard 
+illumination feature at 50% brightness level.
+Keyboard Backlight Timeout on AC Allows the user to set the keyboard backlight timeout duration when the 
+computer is running on AC power. The keyboard backlight timeout value is only 
+in effect when the backlight is enabled.
+By default, the Keyboard Backlight Timeout on AC  value is set to 1 minute.
+BIOS Setup 123
+Table 40. System setup options — Keyboard menu (continued)
+Keyboard
+Keyboard Backlight Timeout on 
+battery Allows the user to set the keyboard backlight timeout duration when the 
+computer is running on battery power. The keyboard backlight timeout value 
+is only in effect when the backlight is enabled.
+By default, the Keyboard Backlight Timeout on battery  value is set to 1 
+minute.
+Table 41. System setup options — Pre-boot Behavior menu 
+Pre-boot Behavior
+Adapter Warnings
+Enable Adapter Warnings Enables or disables the computer to display adapter warning messages when 
+adapters with too little power capacity are detected.
+By default, the option is enabled.
+Warning and Errors Enables or disables the action to be taken when a warning or error is 
+encountered.
+By default, the Prompt on Warnings and Errors  option is enabled. It stops, 
+prompts, and waits for user input when warnings or errors are detected.
+NOTE:  Errors deemed critical to the operation of the computer hardware 
+will always halt the computer.
+Table 42. System setup options — System Logs menu 
+System Logs
+BIOS Event Log
+Clear Bios Event Log Displays BIOS events.
+By default, the Keep Log  option is selected.
+Thermal Event Log
+Clear Thermal Event Log Displays Thermal events.
+By default, the Keep Log  option is selected.
+Power Event Log
+Clear Power Event Log Displays power events.
+By default, the Keep Log  option is selected.
+Updating the BIOS
+Updating the BIOS in Windows
+About this task
+CAUTION:  If BitLocker is not suspended before updating the BIOS, the next time you reboot the computer it 
+will not recognize the BitLocker key. You will then be prompted to enter the recovery key to progress, and the 
+computer will ask for this on each reboot. If the recovery key is not known this can result in data loss or an 
+unnecessary operating system reinstall. For more information about this subject, search in the Knowledge Base 
+Resource at www.dell.com/support .
+124 BIOS Setup
+Steps
+1.Go to www.dell.com/support .
+2.Click Product support . In the Search support  box, enter the Service Tag of your computer, and then click Search .
+NOTE:  If you do not have the Service Tag, use the SupportAssist feature to automatically identify your computer. You 
+can also use the product ID or manually browse for your computer model.
+3.Click Drivers & Downloads . Expand Find drivers .
+4.Select the operating system installed on your computer.
+5.In the Category  drop-down list, select BIOS .
+6.Select the latest version of BIOS, and click Download  to download the BIOS file for your computer.
+7.After the download is complete, browse the folder where you saved the BIOS update file.
+8.Double-click the BIOS update file icon and follow the on-screen instructions.
+For more information, search in the Knowledge Base Resource at www.dell.com/support .
+Updating the BIOS in Linux and Ubuntu
+To update the system BIOS on a computer that is installed with Linux or Ubuntu, see the knowledge base article 000131486  at 
+www.dell.com/support .
+Updating the BIOS using the USB drive in Windows
+About this task
+CAUTION:  If BitLocker is not suspended before updating the BIOS, the next time you reboot the computer it 
+will not recognize the BitLocker key. You will then be prompted to enter the recovery key to progress, and the 
+computer will ask for this on each reboot. If the recovery key is not known this can result in data loss or an 
+unnecessary operating system reinstall. For more information about this subject, search in the Knowledge Base 
+Resource at www.dell.com/support .
+Steps
+1.Follow the procedure from step 1 to step 6 in Updating the BIOS in Windows  to download the latest BIOS setup program file.
+2.Create a bootable USB drive. For more information, search in the Knowledge Base Resource at www.dell.com/support .
+3.Copy the BIOS setup program file to the bootable USB drive.
+4.Connect the bootable USB drive to the computer that needs the BIOS update.
+5.Restart the computer and press F12 .
+6.Select the USB drive from the One Time Boot Menu .
+7.Type the BIOS setup program filename and press Enter .
+The BIOS Update Utility  appears.
+8.Follow the on-screen instructions to complete the BIOS update.
+Updating the BIOS from the F12 One-Time boot menu
+Update your computer BIOS using the BIOS update.exe file that is copied to a FAT32 USB drive and booting from the F12 
+One-Time boot menu.
+About this task
+CAUTION:  If BitLocker is not suspended before updating the BIOS, the next time you reboot the computer it 
+will not recognize the BitLocker key. You will then be prompted to enter the recovery key to progress, and the 
+computer will ask for this on each reboot. If the recovery key is not known this can result in data loss or an 
+unnecessary operating system reinstall. For more information about this subject, search in the Knowledge Base 
+Resource at www.dell.com/support .
+BIOS Setup 125
+BIOS Update
+You can run the BIOS update file from Windows using a bootable USB drive or you can also update the BIOS from the F12 
+One-Time boot menu on the computer.
+Most of the Dell computers built after 2012 have this capability, and you can confirm by booting your computer to the F12 
+One-Time Boot Menu to see if BIOS FLASH UPDATE is listed as a boot option for your computer. If the option is listed, then the 
+BIOS supports this BIOS update option.
+NOTE:  Only computers with the BIOS Flash Update option in the F12 One-Time boot menu can use this function.
+Updating from the One-Time boot menu
+To update your BIOS from the F12 One-Time boot menu, you need the following:
+●USB drive formatted to the FAT32 file system (key does not have to be bootable)
+●BIOS executable file that you downloaded from the Del

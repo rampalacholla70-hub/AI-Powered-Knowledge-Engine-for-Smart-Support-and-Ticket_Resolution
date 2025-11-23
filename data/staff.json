@@ -1,0 +1,12 @@
+{
+  "staff": {
+    "agent01": {
+      "password": "55513eaf3c95f55fcd9ad3c58cf881ee$6bda1fe30d3755866b8a58c7b6a1ddc27793b6b31161e09f44f0c5b9791382e0",
+      "role": "support_agent"
+    },
+    "manager01": {
+      "password": "79cdfe607fda8618e527e540d0d168dd$5dbe770c45d3a80e3759b964a0eaddb72bb6ef3e8233017176d877902e380f7e",
+      "role": "content_manager"
+    }
+  }
+}
