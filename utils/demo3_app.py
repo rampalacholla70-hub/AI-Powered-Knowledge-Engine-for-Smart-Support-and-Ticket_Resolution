@@ -9,7 +9,7 @@ import pandas as pd
 
 
 #path
-BACKEND_DOCS_DIR = "/Users/krishna/Downloads/DELL_KB_PROJECT-23/docs/dell-data"
+BACKEND_DOCS_DIR = "docs/dell-data"
 
 
 
