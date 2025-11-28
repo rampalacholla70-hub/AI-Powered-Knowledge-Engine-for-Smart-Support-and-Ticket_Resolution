@@ -8,7 +8,5 @@ chromadb>=0.4.7
 python-docx>=0.8.11
 groq>=0.0.5
 numpy>=1.24.0
-
-
 # Optional but recommended
 langchain>=1.0.0
