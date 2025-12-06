@@ -10,3 +10,20 @@ groq>=0.0.5
 numpy>=1.24.0
 # Optional but recommended
 langchain>=1.0.0
+streamlit
+pandas
+python-dotenv
+requests
+pytz
+chromadb
+langchain
+langchain-community
+langchain-experimental
+sentence-transformers
+huggingface-hub
+uvicorn
+fastapi
+python-multipart
+python-docx
+openai
+tiktoken
